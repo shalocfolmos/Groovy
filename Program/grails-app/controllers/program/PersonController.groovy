@@ -99,4 +99,23 @@ class PersonController {
             redirect(action: "show", id: id)
         }
     }
+
+    def start() {
+        render(view:"/login")
+    }
+
+    def login() {
+        def username = params["username"]
+        def password = params["password"]
+        def person = Person.findByUsernameAndPassword(username,password)
+        if (person) {
+            session.person=person
+            return redirect(controller: "Result",action: "create")
+        }
+        else
+        {
+            return render(view:"/login",model: [error:"True"])
+        }
+
+    }
 }

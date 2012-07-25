@@ -121,12 +121,13 @@
 	</label>
 	<g:textField name="organizationCOde" maxlength="30" required="" value="${resultInstance?.organizationCOde}"/>
 </div>
+<input type="hidden" name="person.id" value="${resultInstance.person.id}"/>
 
-<div class="fieldcontain ${hasErrors(bean: resultInstance, field: 'person', 'error')} required">
-	<label for="person">
-		<g:message code="result.person.label" default="Person" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:select id="person" name="person.id" from="${program.Person.list()}" optionKey="id" required="" value="${resultInstance?.person?.id}" class="many-to-one"/>
-</div>
+%{--<div class="fieldcontain ${hasErrors(bean: resultInstance, field: 'person', 'error')} required">--}%
+	%{--<label for="person">--}%
+		%{--<g:message code="result.person.label" default="Person" />--}%
+		%{--<span class="required-indicator">*</span>--}%
+	%{--</label>--}%
+	%{--<g:select id="person" name="person.id" from="${program.Person.list()}" optionKey="id" required="" value="${resultInstance?.person?.id}" class="many-to-one"/>--}%
+%{--</div>--}%
 
