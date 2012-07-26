@@ -109,8 +109,8 @@ class PersonController {
         def password = params["password"]
         def person = Person.findByUsernameAndPassword(username,password)
         if (person) {
-            session.person=person
-            return redirect(controller: "Result",action: "create")
+            session.user=person
+            return redirect(controller: "Result",action: "create",params: [personId: person.id])
         }
         else
         {

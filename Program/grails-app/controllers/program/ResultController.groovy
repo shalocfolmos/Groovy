@@ -17,7 +17,9 @@ class ResultController {
     }
 
     def create() {
-        [resultInstance: new Result(params)]
+        def result = new Result(params)
+        result.person = Person.get(params.personId)
+        [resultInstance: result]
     }
 
     def save() {
