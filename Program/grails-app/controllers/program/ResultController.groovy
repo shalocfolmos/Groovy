@@ -10,10 +10,6 @@ class ResultController {
         redirect(action: "list", params: params)
     }
 
-//    def list(Integer max) {
-//        params.max = Math.min(max ?: 10, 100)
-//        [resultInstanceList: Result.list(params), resultInstanceTotal: Result.count()]
-//    }
 
     def list(String personId) {
         def resultInstanceTotal = Result.findAllByPerson(Person.get(personId))
@@ -21,12 +17,6 @@ class ResultController {
     }
 
     def create() {
-        if (session.person) {
-            params.person = session.person
-        }
-        else {
-            redirect(action: "start", controller: "person")
-        }
         [resultInstance: new Result(params)]
     }
 
