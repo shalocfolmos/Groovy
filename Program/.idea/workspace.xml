@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c595d6-da2d-48f3-b927-64af29bfe705" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_cs_CZ.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_da.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_de.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_es.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_it.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_ja.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_nl.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_pl.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_pt_PT.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_ru.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_sv.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_th.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_zh_CN.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/result/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/result/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/result/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/result/edit.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/result/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/result/show.gsp" />
     </list>
     <ignored path="Program.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,10 +79,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="messages.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="55" selection-start="4675" selection-end="4675" vertical-scroll-proportion="0.18287937">
+            <state line="135" column="31" selection-start="5630" selection-end="5630" vertical-scroll-proportion="-23.047619">
               <folding />
             </state>
           </provider>
@@ -73,10 +91,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.gsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/result/create.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="12" selection-start="836" selection-end="906" vertical-scroll-proportion="-5.425532">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/result/list.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="20" selection-start="2579" selection-end="2579" vertical-scroll-proportion="-8.468085">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/result/show.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="114" selection-start="473" selection-end="571" vertical-scroll-proportion="-4.1489363">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/result/edit.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="89" selection-start="1768" selection-end="1794" vertical-scroll-proportion="-5.9574466">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/result/_form.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="25" selection-start="886" selection-end="886" vertical-scroll-proportion="-7.0212765">
+            <state line="131" column="25" selection-start="5858" selection-end="5858" vertical-scroll-proportion="0.7473684">
               <folding />
             </state>
           </provider>
@@ -99,13 +153,16 @@
         <option value="$PROJECT_DIR$/grails-app/domain/program/Person.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/login.gsp.html" />
         <option value="$PROJECT_DIR$/grails-app/views/login.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/result/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/result/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/program/ResultController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/program/SecurityFilters.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/program/PersonController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/program/AppFilterFilters.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/result/create.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/result/list.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/result/show.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/result/edit.gsp" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
       </list>
     </option>
@@ -213,6 +270,68 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="result" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="person" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -230,10 +349,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="i18n" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'messages'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -556,7 +671,11 @@
       <created>1343355607140</created>
       <updated>1343355607140</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="提交">
+      <created>1343355984624</created>
+      <updated>1343355984624</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -686,11 +805,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/result/backup.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="94" selection-start="619" selection-end="619" vertical-scroll-proportion="-1.6039783" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="122" column="0" selection-start="3318" selection-end="3318" vertical-scroll-proportion="0.87030715" />
@@ -719,26 +833,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/result/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="132" selection-start="949" selection-end="949" vertical-scroll-proportion="-5.9148936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/result/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="26" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/result/list.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="66" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/program/AppFilterFilters.groovy">
@@ -769,21 +866,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/result/_form.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/result/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="886" selection-end="886" vertical-scroll-proportion="-7.0212765">
+        <state line="17" column="12" selection-start="836" selection-end="906" vertical-scroll-proportion="-5.425532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/result/list.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="20" selection-start="2579" selection-end="2579" vertical-scroll-proportion="-8.468085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/result/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="114" selection-start="473" selection-end="571" vertical-scroll-proportion="-4.1489363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/result/edit.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="89" selection-start="1768" selection-end="1794" vertical-scroll-proportion="-5.9574466">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="55" selection-start="4675" selection-end="4675" vertical-scroll-proportion="0.18287937">
+        <state line="135" column="31" selection-start="5630" selection-end="5630" vertical-scroll-proportion="-23.047619">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/result/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="25" selection-start="5858" selection-end="5858" vertical-scroll-proportion="0.7473684">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
