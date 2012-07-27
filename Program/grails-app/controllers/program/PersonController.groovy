@@ -101,7 +101,12 @@ class PersonController {
     }
 
     def start() {
-        render(view:"/login")
+        if(!session.userId)
+        {
+            render(view:"/login")
+            return
+        }
+        return redirect(controller: "Result",action: "create",params: [personId: session.userId])
     }
 
     def login() {
@@ -109,7 +114,7 @@ class PersonController {
         def password = params["password"]
         def person = Person.findByUsernameAndPassword(username,password)
         if (person) {
-            session.user=person
+            session.userId=person.id
             return redirect(controller: "Result",action: "create",params: [personId: person.id])
         }
         else
