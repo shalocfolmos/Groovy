@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c595d6-da2d-48f3-b927-64af29bfe705" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/program/AdminController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Program.iws" />
@@ -118,7 +117,7 @@
       <file leaf-file-name="AdminController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/AdminController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="62" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.23890063">
+            <state line="52" column="62" selection-start="1710" selection-end="1710" vertical-scroll-proportion="1.6490486">
               <folding />
             </state>
           </provider>
@@ -676,7 +675,11 @@
       <created>1343442610518</created>
       <updated>1343442610518</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="提交">
+      <created>1343442635048</created>
+      <updated>1343442635048</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -924,7 +927,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/AdminController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="62" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.23890063">
+        <state line="52" column="62" selection-start="1710" selection-end="1710" vertical-scroll-proportion="1.6490486">
           <folding />
         </state>
       </provider>
