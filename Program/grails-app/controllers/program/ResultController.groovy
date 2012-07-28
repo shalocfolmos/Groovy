@@ -10,11 +10,11 @@ class ResultController {
         redirect(action: "list", params: params)
     }
 
-
-    def list(String personId) {
-        def resultInstanceTotal = Result.findAllByPerson(Person.get(personId))
-        render(view:"list",model:[resultInstanceList: Result.findAllByPerson(Person.get(personId),[max:20]), resultInstanceTotal: resultInstanceTotal.size()])
-    }
+//
+//    def list(String personId) {
+//        def resultInstanceTotal = Result.findAllByPerson(Person.get(personId))
+//        render(view:"list",model:[resultInstanceList: Result.findAllByPerson(Person.get(personId),[max:20]), resultInstanceTotal: resultInstanceTotal.size()])
+//    }
 
     def create() {
         def result = new Result(params)
@@ -84,22 +84,22 @@ class ResultController {
         redirect(action: "show", id: resultInstance.id)
     }
 
-    def delete(Long id) {
-        def resultInstance = Result.get(id)
-        if (!resultInstance) {
-            flash.message = message(code: 'default.not.found.message', args: [message(code: 'result.label', default: 'Result'), id])
-            redirect(action: "list")
-            return
-        }
-
-        try {
-            resultInstance.delete(flush: true)
-            flash.message = message(code: 'default.deleted.message', args: [message(code: 'result.label', default: 'Result'), id])
-            redirect(action: "list")
-        }
-        catch (DataIntegrityViolationException e) {
-            flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'result.label', default: 'Result'), id])
-            redirect(action: "show", id: id)
-        }
-    }
+//    def delete(Long id) {
+//        def resultInstance = Result.get(id)
+//        if (!resultInstance) {
+//            flash.message = message(code: 'default.not.found.message', args: [message(code: 'result.label', default: 'Result'), id])
+//            redirect(action: "list")
+//            return
+//        }
+//
+//        try {
+//            resultInstance.delete(flush: true)
+//            flash.message = message(code: 'default.deleted.message', args: [message(code: 'result.label', default: 'Result'), id])
+//            redirect(action: "list")
+//        }
+//        catch (DataIntegrityViolationException e) {
+//            flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'result.label', default: 'Result'), id])
+//            redirect(action: "show", id: id)
+//        }
+//    }
 }

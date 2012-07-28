@@ -4,6 +4,9 @@
     <list default="true" id="00c595d6-da2d-48f3-b927-64af29bfe705" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/program/PersonController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/program/PersonController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/program/ResultController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/program/ResultController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
     </list>
     <ignored path="Program.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,6 +24,34 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/grails-app/conf/program/AppFilterFilters.groovy" line="25" class="program.AppFilterFilters" package="program">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/grails-app/conf/program/AppFilterFilters.groovy" line="7" class="program.AppFilterFilters" package="program">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -61,64 +92,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="resultList.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/admin/resultList.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="94" selection-start="377" selection-end="377" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/person/list.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="139" selection-start="473" selection-end="596" vertical-scroll-proportion="-4.1489363">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/person/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="139" selection-start="608" selection-end="608" vertical-scroll-proportion="-2.2340426">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/PersonController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="6" selection-start="263" selection-end="263" vertical-scroll-proportion="-0.65217394">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/result/show.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="91" selection-start="548" selection-end="548" vertical-scroll-proportion="-1.2765957">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/AdminController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="254" selection-end="254" vertical-scroll-proportion="-6.521739">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BootStrap.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="79" selection-start="156" selection-end="156" vertical-scroll-proportion="0.15120968">
+            <state line="5" column="73" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,25 +104,37 @@
       <file leaf-file-name="AppFilterFilters.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/program/AppFilterFilters.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+      <file leaf-file-name="ResultController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/ResultController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="0" selection-start="5632" selection-end="5632" vertical-scroll-proportion="0.0">
+            <state line="86" column="7" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.22037423">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/person/create.gsp">
+      <file leaf-file-name="Person.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/program/Person.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="72" selection-start="532" selection-end="532" vertical-scroll-proportion="-3.8297873">
+            <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.6818182">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/PersonController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.6086957">
               <folding />
             </state>
           </provider>
@@ -164,13 +153,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/result/list.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/admin/login.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/person/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/program/Person.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/program/AdminController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/program/PersonController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/grails-app/views/admin/resultList.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/person/list.gsp" />
@@ -180,6 +167,8 @@
         <option value="$PROJECT_DIR$/grails-app/views/result/show.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/program/AppFilterFilters.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/program/PersonController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/program/ResultController.groovy" />
       </list>
     </option>
   </component>
@@ -318,6 +307,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -684,7 +695,11 @@
       <created>1343442696772</created>
       <updated>1343442696772</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="提交">
+      <created>1343443051082</created>
+      <updated>1343443051082</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -834,14 +849,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/program/Person.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="304" selection-end="304" vertical-scroll-proportion="0.44397464" />
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/person/_form.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="0" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.90153176" />
@@ -850,11 +857,6 @@
     <entry file="file://$PROJECT_DIR$/grails-app/views/admin/login.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="-5.425532" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/ResultController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="302" selection-end="302" vertical-scroll-proportion="0.29347825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/admin/resultShow.gsp">
@@ -899,23 +901,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/PersonController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="263" selection-end="263" vertical-scroll-proportion="-0.65217394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/result/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="91" selection-start="548" selection-end="548" vertical-scroll-proportion="-1.2765957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/program/AppFilterFilters.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -934,9 +922,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/program/Person.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.6818182">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="79" selection-start="156" selection-end="156" vertical-scroll-proportion="0.15120968">
+        <state line="5" column="73" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/program/AppFilterFilters.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/PersonController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.6086957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/ResultController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="7" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.22037423">
           <folding />
         </state>
       </provider>
