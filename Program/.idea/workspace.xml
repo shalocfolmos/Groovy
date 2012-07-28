@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00c595d6-da2d-48f3-b927-64af29bfe705" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
     </list>
     <ignored path="Program.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,15 +70,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resultShow.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/admin/resultShow.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="92" selection-start="549" selection-end="549" vertical-scroll-proportion="-4.1489363">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/person/list.gsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,10 +106,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AdminController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/AdminController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="62" selection-start="1710" selection-end="1710" vertical-scroll-proportion="1.6490486">
+            <state line="10" column="21" selection-start="254" selection-end="254" vertical-scroll-proportion="-6.521739">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="79" selection-start="156" selection-end="156" vertical-scroll-proportion="0.15120968">
               <folding />
             </state>
           </provider>
@@ -163,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/result/edit.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/result/list.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/admin/login.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
@@ -179,6 +179,7 @@
         <option value="$PROJECT_DIR$/grails-app/views/person/show.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/result/show.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/program/AppFilterFilters.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
       </list>
     </option>
   </component>
@@ -679,7 +680,11 @@
       <created>1343442635048</created>
       <updated>1343442635048</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="提交">
+      <created>1343442696772</created>
+      <updated>1343442696772</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -829,16 +834,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/program/Person.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="32" selection-start="304" selection-end="304" vertical-scroll-proportion="0.44397464" />
@@ -925,9 +920,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="2807" selection-end="2807" vertical-scroll-proportion="0.0625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/program/AdminController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="62" selection-start="1710" selection-end="1710" vertical-scroll-proportion="1.6490486">
+        <state line="10" column="21" selection-start="254" selection-end="254" vertical-scroll-proportion="-6.521739">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="79" selection-start="156" selection-end="156" vertical-scroll-proportion="0.15120968">
           <folding />
         </state>
       </provider>
