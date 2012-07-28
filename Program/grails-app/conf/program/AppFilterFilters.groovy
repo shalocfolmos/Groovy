@@ -16,12 +16,24 @@ class AppFilterFilters {
             }
         }
 
-        adminPersonFilter(controller: 'person',action:'*',excludeAction:"(login)|(start)") {
-            if(!session.superuser) {
-                redirect(controller: "person", action: "start")
-                return false
+        adminFilter(controller: 'admin',action:'*') {
+            before = {
+                if(controllerName == "admin" && (actionName=="login" || actionName=="start"))
+                {
+                    return true
+                }
+
+                if(actionName=="create" || actionName == "save") {
+                    return true
+                }
+
+                if(!session.superuser) {
+                    redirect(controller: "admin", action: "start")
+                    return false
+                }
             }
         }
+
 
     }
 }

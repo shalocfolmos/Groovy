@@ -13,8 +13,7 @@ class UrlMappings {
 		"500"(view:'/error')
 
 
-        "/admin/login"(controller: "person",action: "login")
-        "/admin/list"(controller: "Result", action: "adminList")
+        "/admin/login"(controller: "admin",action: "login")
 //        "/admin/list/$person/$page"(controller: "result",action: "adminList")
 	}
 }

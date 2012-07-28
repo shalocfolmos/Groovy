@@ -6,6 +6,7 @@ class Person {
     String username
     String password
     String division
+    Boolean superuser;
     static hasMany = [results:Result]
 
     static constraints = {
