@@ -10,7 +10,7 @@
 		<a href="#create-person" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
 			<ul>
-				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="admin.home.label"/></a></li>
+				<li><a class="home" href="${createLink(controller:'admin',action: 'start')}"><g:message code="admin.home.label"/></a></li>
 				<li><g:link class="list" action="list"><g:message code="person.list.label" args="[entityName]" /></g:link></li>
 			</ul>
 		</div>

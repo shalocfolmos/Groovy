@@ -12,6 +12,7 @@
 		<div class="nav" role="navigation">
 			<ul>
 				%{--<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>--}%
+                <li><a class="home" href="${createLink(controller: 'admin',action: 'resultList')}"><g:message code="admin.home.label"/></a></li>
 				<li><g:link class="create" controller="person"  action="list"><g:message code="person.list.label" default="会员列表" /></g:link></li>
 			</ul>
 		</div>
