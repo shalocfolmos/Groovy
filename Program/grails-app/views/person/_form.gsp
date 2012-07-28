@@ -26,20 +26,20 @@
 	<g:textField name="division" maxlength="30" value="${personInstance?.division}"/>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'results', 'error')} ">
-	<label for="results">
-		<g:message code="person.results.label" default="Results" />
-		
-	</label>
-	
-<ul class="one-to-many">
-<g:each in="${personInstance?.results?}" var="r">
-    <li><g:link controller="result" action="show" id="${r.id}">${r?.encodeAsHTML()}</g:link></li>
-</g:each>
-<li class="add">
-<g:link controller="result" action="create" params="['person.id': personInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'result.label', default: 'Result')])}</g:link>
-</li>
-</ul>
+%{--<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'results', 'error')} ">--}%
+	%{--<label for="results">--}%
+		%{--<g:message code="person.results.label" default="Results" />--}%
+		%{----}%
+	%{--</label>--}%
+	%{----}%
+%{--<ul class="one-to-many">--}%
+%{--<g:each in="${personInstance?.results?}" var="r">--}%
+    %{--<li><g:link controller="result" action="show" id="${r.id}">${r?.encodeAsHTML()}</g:link></li>--}%
+%{--</g:each>--}%
+%{--<li class="add">--}%
+%{--<g:link controller="result" action="create" params="['person.id': personInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'result.label', default: 'Result')])}</g:link>--}%
+%{--</li>--}%
+%{--</ul>--}%
 
-</div>
+%{--</div>--}%
 

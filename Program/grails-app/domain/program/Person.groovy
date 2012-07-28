@@ -14,6 +14,7 @@ class Person {
         password nullable: true, maxSize: 80
         division nullable: true, maxSize: 30
         results unique: true
+        superuser nullable: true
     }
 
 

@@ -16,11 +16,11 @@ class PersonController {
     }
 
     def create() {
-        def p = new Person()
-        p.username = "sam"
-        p.password = "123"
-        p.superuser = true
-        p.save()
+//        def p = new Person()
+//        p.username = "sam"
+//        p.password = "123"
+//        p.superuser = true
+//        p.save()
         [personInstance: new Person(params)]
     }
 
