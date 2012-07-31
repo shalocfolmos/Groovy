@@ -12,7 +12,7 @@ class AppFilterFilters {
             }
         }
 
-        personRulter(controller: "person", action: "*", excludeAction: "(start)|(login)") {
+        personFilter(controller: "person", action: "*", actionExclude:"(start)|(login)") {
             before = {
                 if(!session.superuser) {
                     redirect(controller: "admin", action: "start")

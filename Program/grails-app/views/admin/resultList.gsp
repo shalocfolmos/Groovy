@@ -35,7 +35,7 @@
 					
 						<g:sortableColumn property="phone" title="${message(code: 'result.phone.label', default: 'Phone')}" />
 					
-						<g:sortableColumn property="address" title="${message(code: 'result.address.label', default: 'Address')}" />
+						<g:sortableColumn property="address" title="${message(code: 'd', default: '创建人')}" />
 					
 					</tr>
 				</thead>
@@ -44,17 +44,17 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="resultShow" id="${resultInstance.id}">${fieldValue(bean: resultInstance, field: "consumeName")}</g:link></td>
-					
+
 						<td>${fieldValue(bean: resultInstance, field: "contact")}</td>
-					
+
 						<td>${fieldValue(bean: resultInstance, field: "creditCard")}</td>
-					
+
 						<td><g:formatDate date="${resultInstance.saleDate}" /></td>
-					
+
 						<td>${fieldValue(bean: resultInstance, field: "phone")}</td>
-					
-						<td>${fieldValue(bean: resultInstance, field: "address")}</td>
-					
+
+						<td><g:link action="show" controller="person" id="${resultInstance.person.id}">${fieldValue(bean: resultInstance, field: "person.username")}</g:link></td>
+
 					</tr>
 				</g:each>
 				</tbody>

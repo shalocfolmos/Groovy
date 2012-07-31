@@ -50,16 +50,16 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${personInstance?.results}">
-				<li class="fieldcontain">
-					<span id="results-label" class="property-label"><g:message code="person.results.label" default="Results" /></span>
-					
-						<g:each in="${personInstance.results}" var="r">
-						<span class="property-value" aria-labelledby="results-label"><g:link controller="result" action="show" id="${r.id}">${r?.encodeAsHTML()}</g:link></span>
-						</g:each>
-					
-				</li>
-				</g:if>
+				%{--<g:if test="${personInstance?.results}">--}%
+				%{--<li class="fieldcontain">--}%
+					%{--<span id="results-label" class="property-label"><g:message code="person.results.label" default="Results" /></span>--}%
+					%{----}%
+						%{--<g:each in="${personInstance.results}" var="r">--}%
+						%{--<span class="property-value" aria-labelledby="results-label"><g:link controller="result" action="show" id="${r.id}">${r?.encodeAsHTML()}</g:link></span>--}%
+						%{--</g:each>--}%
+					%{----}%
+				%{--</li>--}%
+				%{--</g:if>--}%
 			
 			</ol>
 			<g:form>
