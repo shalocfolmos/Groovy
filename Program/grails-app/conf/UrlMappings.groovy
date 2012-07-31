@@ -7,9 +7,9 @@ class UrlMappings {
 			}
 		}
 
-        "/start"(controller: "person",action: "start")
+//        "/start"(controller: "person",action: "start")
         "/login"(controller: "person",action: "login")
-		"/"(view:"/index")
+		"/"(controller: "person",action: "start")
 		"500"(view:'/error')
 
 
