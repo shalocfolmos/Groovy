@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/database-migration-1.2.1/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/jquery-1.8.3/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="Gorm" />
+          <unit-entry name="sessionFactory" />
+        </datasource-map>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/cache-1.0.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/cache-1.0.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/cache-1.0.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/cache-1.0.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/cache-1.0.1/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/database-migration-1.2.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/database-migration-1.2.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/database-migration-1.2.1/grails-app/controllers" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/hibernate-2.2.0" />
+    <content url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/jquery-1.8.3">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/jquery-1.8.3/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/jquery-1.8.3/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/jquery-1.8.3/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/jquery-1.8.3/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/resources-1.1.6">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/resources-1.1.6/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/resources-1.1.6/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/resources-1.1.6/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/resources-1.1.6/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/tomcat-2.2.0" />
+    <content url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/webxml-1.4.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="grails-2.2.0" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library (Workspace-grailsPlugins)">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.20.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
