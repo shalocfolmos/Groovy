@@ -123,7 +123,7 @@
             <input type="hidden" id="templateFrameworkId"/>
         </div>
         <g:link controller="templateFramework" action="getAllSegments" style="display: none;" name="getAllSegmentsLink"/>
-        <g:link controller="templateFramework" action="generateCommonElementGroup" style="display: none;" name="postCommonGroupLink"/>
+        <g:link controller="commonElementGroup" action="generateCommonElementGroup" style="display: none;" name="postCommonGroupLink"/>
 
         <script type="text/javascript">
                 $(document).ready(
@@ -146,14 +146,14 @@
                                         modal:true,
                                         buttons: {
                                             "创建":function(){
-                                                var contentGroupName = $("#elementGroupName").val,
+                                                var contentGroupName = $("#elementGroupName").val(),
                                                         checkedSegment=[],
-                                                        templateFrameworkId = $("#templateFrameworkId").val,
+                                                        templateFrameworkId = $("#templateFrameworkId").val(),
                                                         generateGroupLink = $('[name="postCommonGroupLink"]').attr("href");
                                                 $("input[name*='segmentRadio_']").each(
                                                         function() {
                                                             if(this.checked) {
-                                                                checkedSegment.add($(this).attr("name").substring(13));
+                                                                checkedSegment.push($(this).attr("name").substring(13));
                                                             }
                                                         }
                                                 );
@@ -200,8 +200,8 @@
                                 segmentListTable.append(content);
                             }
                     );
-                    $("#elementGroupName").val = "";
-                    $("#templateFrameworkId").val = tempalteFrameworkId;
+                    $("#elementGroupName").val("");
+                    $("#templateFrameworkId").val(tempalteFrameworkId);
                     $("#segmentListDialog").dialog("open");
                 }
 
@@ -209,7 +209,7 @@
                     var getSegmentsLink = $('[name="getAllSegmentsLink"]').attr("href");
                     $('a[name*="createElementGroup_"]').each (
                             function() {
-                                var tempalteFrameworkId = $(this).attr("name").substr(18);
+                                var tempalteFrameworkId = $(this).attr("name").substr(19);
                                 $(this).click(
                                         function(event) {
                                             event.preventDefault();

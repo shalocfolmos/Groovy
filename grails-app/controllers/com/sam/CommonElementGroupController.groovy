@@ -21,6 +21,12 @@ class CommonElementGroupController {
 
     def generateCommonElementGroup() {
         def templateFrameworkId = request.post["templateFrameworkId"]
+        def checkedSegment = request.post["checkedSegment"]
+        def contentGroupName = request.post["contentGroupName"]
+        def commonElementGroup = new CommonElementGroup(name:contentGroupName,templateFrameworkId:templateFrameworkId)
+        checkedSegment.each(){it->
+            CommonElement
+        }
     }
 
     def save() {

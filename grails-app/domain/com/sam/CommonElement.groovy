@@ -2,13 +2,15 @@ package com.sam
 
 class CommonElement {
 
-    String name
+    static belongsTo = [group:CommonElementGroup]
     Segment segment
-    TemplateFramework templateFramework
+
 
     static hasMany = [attributes:CommonElementAttribute]
 
+
     static constraints = {
         name unique:true,nullable: false
+        group column:"template_framework_fk"
     }
 }
