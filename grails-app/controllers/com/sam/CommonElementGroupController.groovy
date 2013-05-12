@@ -20,7 +20,7 @@ class CommonElementGroupController {
     }
 
     def generateCommonElementGroup() {
-
+        def templateFrameworkId = request.post["templateFrameworkId"]
     }
 
     def save() {

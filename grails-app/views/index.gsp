@@ -108,7 +108,7 @@
                     公共组件群名称:
                 </div>
                 <div style="padding-left: 150px;">
-                    <input type="text" id="commonElementGroup" style="border: #4169e1;background-color: #dcdcdc;"/>
+                    <input type="text" id="elementGroupName" style="border: #4169e1;background-color: #dcdcdc;"/>
                 </div>
                 <div style="clear: both;">
 
@@ -120,10 +120,10 @@
 
                 </table>
             </div>
-
+            <input type="hidden" id="templateFrameworkId"/>
         </div>
         <g:link controller="templateFramework" action="getAllSegments" style="display: none;" name="getAllSegmentsLink"/>
-        <g:link controller="templateFramework" action="getAllSegments" style="display: none;" name="postCommonGroupLink"/>
+        <g:link controller="templateFramework" action="generateCommonElementGroup" style="display: none;" name="postCommonGroupLink"/>
 
         <script type="text/javascript">
                 $(document).ready(
@@ -146,27 +146,38 @@
                                         modal:true,
                                         buttons: {
                                             "创建":function(){
-                                                $.ajax(
-                                                        {
-                                                            type:"POST",
-                                                            url:"",
-                                                            data:[],
-                                                            success:function(data,textStatus) {
-                                                                var checkedSegment = []
-                                                                $("input[name*='segmentRadio_']").each(
-                                                                    function() {
-                                                                        if(this.checked) {
-                                                                            checkedSegment.add($(this).attr("name").substring(13));
-                                                                        }
-                                                                    }
-                                                                );
-                                                            },
-                                                            error:function() {
-
+                                                var contentGroupName = $("#elementGroupName").val,
+                                                        checkedSegment=[],
+                                                        templateFrameworkId = $("#templateFrameworkId").val,
+                                                        generateGroupLink = $('[name="postCommonGroupLink"]').attr("href");
+                                                $("input[name*='segmentRadio_']").each(
+                                                        function() {
+                                                            if(this.checked) {
+                                                                checkedSegment.add($(this).attr("name").substring(13));
                                                             }
                                                         }
+                                                );
+                                                if(checkedSegment.length == 0) {
+                                                    alert("至少需要选择一个元素");
+                                                }else {
+                                                    $.ajax(
+                                                            {
+                                                                type:"POST",
+                                                                url:generateGroupLink,
+                                                                data:{'contentGroupName':contentGroupName,
+                                                                    'checkedSegment':checkedSegment,
+                                                                    'templateFrameworkId':templateFrameworkId
+                                                                },
+                                                                success:function(data,textStatus) {
 
-                                                )
+                                                                },
+                                                                error:function() {
+
+                                                                }
+                                                            }
+
+                                                    )
+                                                }
                                             },
                                             "关闭":function() {
                                                 $(this).dialog("close");
@@ -177,7 +188,7 @@
                         }
                 )
 
-                function initElementDialog(data) {
+                function initElementDialog(data,tempalteFrameworkId) {
                     var segmentListTable = $("#segmentListTable");
                     $("tr[name*='segmentLine']").remove();
                     $(data).each(
@@ -189,26 +200,27 @@
                                 segmentListTable.append(content);
                             }
                     );
-
+                    $("#elementGroupName").val = "";
+                    $("#templateFrameworkId").val = tempalteFrameworkId;
                     $("#segmentListDialog").dialog("open");
                 }
 
                 function initGenerateCommonElement() {
                     var getSegmentsLink = $('[name="getAllSegmentsLink"]').attr("href");
-                    $('a[name*="createElementLink_"]').each (
+                    $('a[name*="createElementGroup_"]').each (
                             function() {
-                                var elementTemplateId = $(this).attr("name").substr(18);
+                                var tempalteFrameworkId = $(this).attr("name").substr(18);
                                 $(this).click(
                                         function(event) {
                                             event.preventDefault();
                                             jQuery.ajax(
                                                     {type:'GET',
-                                                        data:{'id': elementTemplateId},
+                                                        data:{'id': tempalteFrameworkId},
                                                         url:getSegmentsLink,
                                                         success:
                                                                 function(data,textStatus){
                                                                    if($(data).length > 0) {
-                                                                       initElementDialog(data);
+                                                                       initElementDialog(data,tempalteFrameworkId);
                                                                    }
                                                                    else{
                                                                         alert("模板不满足生成组件的条件!")
