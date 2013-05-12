@@ -123,6 +123,7 @@
 
         </div>
         <g:link controller="templateFramework" action="getAllSegments" style="display: none;" name="getAllSegmentsLink"/>
+        <g:link controller="templateFramework" action="getAllSegments" style="display: none;" name="postCommonGroupLink"/>
 
         <script type="text/javascript">
                 $(document).ready(
@@ -145,7 +146,27 @@
                                         modal:true,
                                         buttons: {
                                             "创建":function(){
+                                                $.ajax(
+                                                        {
+                                                            type:"POST",
+                                                            url:"",
+                                                            data:[],
+                                                            success:function(data,textStatus) {
+                                                                var checkedSegment = []
+                                                                $("input[name*='segmentRadio_']").each(
+                                                                    function() {
+                                                                        if(this.checked) {
+                                                                            checkedSegment.add($(this).attr("name").substring(13));
+                                                                        }
+                                                                    }
+                                                                );
+                                                            },
+                                                            error:function() {
 
+                                                            }
+                                                        }
+
+                                                )
                                             },
                                             "关闭":function() {
                                                 $(this).dialog("close");
@@ -164,7 +185,7 @@
                                 var content = "<tr name='segmentLine'>" +
                                         "<td>" +
                                         element.name+"</td>"+
-                                        "<td><input type='radio' id=radiobutton_"+ element.segmentId +"/></td></tr>";
+                                        "<td><input type='radio' name=segmentRadio_"+ element.segmentId +"/></td></tr>";
                                 segmentListTable.append(content);
                             }
                     );

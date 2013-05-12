@@ -19,6 +19,10 @@ class CommonElementGroupController {
         [commonElementGroupInstance: new CommonElementGroup(params)]
     }
 
+    def generateCommonElementGroup() {
+
+    }
+
     def save() {
         def commonElementGroupInstance = new CommonElementGroup(params)
         if (!commonElementGroupInstance.save(flush: true)) {
