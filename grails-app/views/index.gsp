@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta name="layout" content="main"/>
 		<title>Welcome to Grails</title>
@@ -102,56 +102,109 @@
         <div style="display: none;" id="ajaxLink">
             <g:link action="ajaxContent" controller="index" />
         </div>
-        <div id="segmentListDialog">
+        <div id="segmentListDialog" style="display: none;">
+            <div>
+                <div style="float: left;">
+                    公共组件群名称:
+                </div>
+                <div style="padding-left: 150px;">
+                    <input type="text" id="commonElementGroup" style="border: #4169e1;background-color: #dcdcdc;"/>
+                </div>
+                <div style="clear: both;">
+
+                </div>
+            </div>
+            <div>
+                <table id="segmentListTable">
+
+
+                </table>
+            </div>
 
         </div>
+        <g:link controller="templateFramework" action="getAllSegments" style="display: none;" name="getAllSegmentsLink"/>
 
-    <script type="text/javascript">
-            function selectAllSegments() {
-                alert("dd");
-                $("#segmentListDialog").dialog(
-                        {
-                            autoOpen:false,
-                            width:400,
-                            height:400,
-                            modal:true,
-                            buttons: {
-                                "选择一个组件":function(){
+        <script type="text/javascript">
+                $(document).ready(
+                        function() {
+                                jQuery.ajax(
+                                        {type:'POST',
+                                         data:{'module': $("#page").html()},
+                                         url:$("#ajaxLink").children()[0].getAttribute("href"),
+                                         success:
+                                                 function(data,textStatus){
+                                                    $('#displayContent').html(data);
+                                                 },
+                                         error:function(XMLHttpRequest,textStatus,errorThrown){alert("服务器错误,请重新刷新页面")}}
+                                );
 
-                                },
-                                "关闭":function() {
-                                    $(this).dialog("close");
-                                }
-                            }
-                        }
-                );
-            }
+                            $("#segmentListDialog").dialog(
+                                    {
+                                        autoOpen:false,
+                                        width:800,
+                                        modal:true,
+                                        buttons: {
+                                            "创建":function(){
 
-            $(document).ready(
-                    function() {
-                            jQuery.ajax(
-                                    {type:'POST',
-                                     data:{'module': $("#page").html()},
-                                     url:$("#ajaxLink").children()[0].getAttribute("href"),
-                                     success:
-                                             function(data,textStatus){
-                                                $('#displayContent').html(data);
-                                             },
-                                     error:function(XMLHttpRequest,textStatus,errorThrown){alert("服务器错误,请重新刷新页面")}}
-
+                                            },
+                                            "关闭":function() {
+                                                $(this).dialog("close");
+                                            }
+                                        }
+                                    }
                             );
+                        }
+                )
+
+                function initElementDialog(data) {
+                    var segmentListTable = $("#segmentListTable");
+                    $("tr[name*='segmentLine']").remove();
+                    $(data).each(
+                            function(index,element) {
+                                var content = "<tr name='segmentLine'>" +
+                                        "<td>" +
+                                        element.name+"</td>"+
+                                        "<td><input type='radio' id=radiobutton_"+ element.segmentId +"/></td></tr>";
+                                segmentListTable.append(content);
+                            }
+                    );
+
+                    $("#segmentListDialog").dialog("open");
+                }
+
+                function initGenerateCommonElement() {
+                    var getSegmentsLink = $('[name="getAllSegmentsLink"]').attr("href");
+                    $('a[name*="createElementLink_"]').each (
+                            function() {
+                                var elementTemplateId = $(this).attr("name").substr(18);
+                                $(this).click(
+                                        function(event) {
+                                            event.preventDefault();
+                                            jQuery.ajax(
+                                                    {type:'GET',
+                                                        data:{'id': elementTemplateId},
+                                                        url:getSegmentsLink,
+                                                        success:
+                                                                function(data,textStatus){
+                                                                   if($(data).length > 0) {
+                                                                       initElementDialog(data);
+                                                                   }
+                                                                   else{
+                                                                        alert("模板不满足生成组件的条件!")
+                                                                   }
+                                                                },
+                                                        error:function(XMLHttpRequest,textStatus,errorThrown){alert("服务器错误,请重新刷新页面")}}
+                                            );
 
 
-                    }
-            )
+                                        }
+                                )
+                            }
+                    )
+                }
 
-        </script>
-        <g:javascript library="jquery"/>
-    </body>
-<script type="text/javascript">
-
-    $(document).ready(
-
-    )
-</script>
+            </script>
+            <g:javascript library="jquery"/>
+            <r:require module="jquery-ui"/>
+        </body>
 </html>

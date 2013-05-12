@@ -10,7 +10,7 @@
                 </li>
             </g:if>
             <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED}">
-                <a href="" id="createCommonElement" onclick="selectAllSegments()">
+                <a href="" name="createElementLink_${templateFramework?.id}">
                     创建公共组件
                 </a>
             </g:if>
@@ -21,5 +21,16 @@
     </div>
 
 </g:each>
+<g:javascript library="jquery"/>
+<script type="text/javascript">
+    $(document).ready(
+            function() {
+                if($('a[name*="createElementLink_"]').length > 0){
+                    initGenerateCommonElement();
+                }
+            }
+    )
+</script>
+
 
 

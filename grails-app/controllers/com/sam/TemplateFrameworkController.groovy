@@ -1,6 +1,7 @@
 package com.sam
 
 import org.springframework.dao.DataIntegrityViolationException
+import grails.converters.JSON
 
 class TemplateFrameworkController {
 
@@ -106,9 +107,9 @@ class TemplateFrameworkController {
         def segmentNameList = []
 
         templateFrameworkInstance.getSegments().each {it->
-            it.name >> segmentNameList
+            segmentNameList << it
         }
-        return [segmentNameList:segmentNameList]
+        render segmentNameList as JSON
 
     }
 

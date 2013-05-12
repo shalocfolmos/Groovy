@@ -59,8 +59,9 @@ import java.sql.Clob
                         segment.shouldModifyContext = true
                     }
                 }
-                segment.save(flush: true)
+                segment.save()
             }
+            this.addToSegments(segment)
         }
         TransformerFactory tf = TransformerFactory.newInstance();
         Transformer transform = tf.newTransformer();
