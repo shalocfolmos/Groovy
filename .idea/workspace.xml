@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementGroupController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementGroupController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/sam/CommonElementGroup.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/sam/CommonElementGroup.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" />
     </list>
     <ignored path="workspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -789,7 +785,11 @@
       <created>1368336779625</created>
       <updated>1368336779625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1368356568082</created>
+      <updated>1368356568082</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
