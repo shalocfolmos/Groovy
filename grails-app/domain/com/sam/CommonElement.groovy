@@ -12,5 +12,6 @@ class CommonElement {
     static constraints = {
         name unique:true,nullable: false
         group column:"template_framework_fk"
+        segment column:"segment_fk"
     }
 }

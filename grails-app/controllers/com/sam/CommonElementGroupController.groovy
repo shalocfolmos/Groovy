@@ -6,6 +6,8 @@ class CommonElementGroupController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
+    def commonElementService
+
     def index() {
         redirect(action: "list", params: params)
     }
@@ -20,13 +22,7 @@ class CommonElementGroupController {
     }
 
     def generateCommonElementGroup() {
-        def templateFrameworkId = request.post["templateFrameworkId"]
-        def checkedSegment = request.post["checkedSegment"]
-        def contentGroupName = request.post["contentGroupName"]
-        def commonElementGroup = new CommonElementGroup(name:contentGroupName,templateFrameworkId:templateFrameworkId)
-        checkedSegment.each(){it->
-            CommonElement
-        }
+        commonElementService.generateCommonElementGroup(request)
     }
 
     def save() {

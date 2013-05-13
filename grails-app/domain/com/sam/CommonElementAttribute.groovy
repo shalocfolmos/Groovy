@@ -4,7 +4,7 @@ class CommonElementAttribute {
 
     AttributeType attribute_type
     String attribute_value
-
+                                `
     static belongsTo = [commonElement:CommonElement]
 
     static constraints = {

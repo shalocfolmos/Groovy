@@ -53,7 +53,7 @@
     <content url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/webxml-1.4.1">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/workspace/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="grails-2.2.0" level="application" />
     <orderEntry type="module-library" exported="">

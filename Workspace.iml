@@ -55,7 +55,7 @@
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="grails-2.2.0" level="application" />
-    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="library" name="org.grails.ide.eclipse.core.CLASSPATH_CONTAINER" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (Workspace)">
