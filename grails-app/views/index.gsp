@@ -147,22 +147,26 @@
                                         buttons: {
                                             "创建":function(){
                                                 var contentGroupName = $("#elementGroupName").val(),
-                                                        checkedSegment=[],
+                                                        checkedSegment="",
                                                         templateFrameworkId = $("#templateFrameworkId").val(),
                                                         generateGroupLink = $('[name="postCommonGroupLink"]').attr("href");
                                                 $("input[name*='segmentRadio_']").each(
                                                         function() {
                                                             if(this.checked) {
-                                                                checkedSegment.push($(this).attr("name").substring(13));
+                                                                checkedSegment+=$(this).attr("name").substring(13)+",";
                                                             }
                                                         }
                                                 );
-                                                if(checkedSegment.length == 0) {
+                                                if(contentGroupName.length == 0) {
+                                                    alert("组名不能为空");
+                                                }
+                                                else if(checkedSegment.length == 0) {
                                                     alert("至少需要选择一个元素");
                                                 }else {
                                                     $.ajax(
                                                             {
                                                                 type:"POST",
+                                                                async:false,
                                                                 url:generateGroupLink,
                                                                 data:{'contentGroupName':contentGroupName,
                                                                     'checkedSegment':checkedSegment,
@@ -170,9 +174,19 @@
                                                                 },
                                                                 success:function(data,textStatus) {
 
+                                                                    if(data == 'T')
+                                                                    {
+                                                                        $("#segmentListDialog").dialog("close");
+                                                                        alert("创建成功!");
+                                                                        location.reload();
+                                                                    }
+                                                                    else {
+                                                                        alert(data);
+                                                                    }
                                                                 },
                                                                 error:function() {
-
+                                                                    $("#segmentListDialog").dialog("close");
+                                                                    alert("创建失败,请重新尝试");
                                                                 }
                                                             }
 
@@ -196,7 +210,7 @@
                                 var content = "<tr name='segmentLine'>" +
                                         "<td>" +
                                         element.name+"</td>"+
-                                        "<td><input type='radio' name=segmentRadio_"+ element.segmentId +"/></td></tr>";
+                                        "<td><input type='radio' name='segmentRadio_"+ element.segmentId +"'/></td></tr>";
                                 segmentListTable.append(content);
                             }
                     );

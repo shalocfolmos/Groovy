@@ -22,7 +22,18 @@ class CommonElementGroupController {
     }
 
     def generateCommonElementGroup() {
-        commonElementService.generateCommonElementGroup(request)
+        try {
+
+            if (CommonElementGroup.findByName(params.contentGroupName) != null){
+                render "组件名不能重复!"
+            }
+            else {
+                commonElementService.generateCommonElementGroup(params)
+                render "T"
+            }
+        } catch (Exception e) {
+            render "创建失败,请重新尝试"
+        }
     }
 
     def save() {
