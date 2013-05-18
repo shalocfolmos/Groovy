@@ -13,7 +13,7 @@ mysqlDataSource {
     dbCreate = "update"
     username = "root"
     password = "123456"
-    url = "jdbc:mysql://127.0.0.1:3306/cms_email"
+    url = "jdbc:mysql://127.0.0.1:3306/cms_email?useUnicode=yes&characterEncoding=UTF-8"
 }
 
 hibernate {
