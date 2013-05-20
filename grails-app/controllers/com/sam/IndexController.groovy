@@ -18,6 +18,13 @@ class IndexController {
     def ajaxContent() {
         if(params.module == 'templateFramework') {
             def templateFrameworkCollection = TemplateFramework.findAll()
+            templateFrameworkCollection.each ({it ->
+                def commonElementGroupCollection = CommonElementGroup.findAllByTemplateFrameworkId(it.id)
+                if(commonElementGroupCollection && commonElementGroupCollection.size() > 0) {
+                    it.elementGroupCollection = commonElementGroupCollection
+                }
+            }
+            );
             render(template: "templateFramework",model: [templateFrameworkCollection:templateFrameworkCollection])
         }
         else {

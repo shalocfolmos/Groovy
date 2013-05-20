@@ -17,6 +17,14 @@
             <li style="display:inline; padding-left: 15px;">
                 <g:link controller="templateFramework" action="delete" id="${templateFramework?.id}">删除模板框架</g:link>
             </li>
+            <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED && templateFramework.elementGroupCollection}">
+             <li>
+                <a href="" name="">
+                    编辑组件内容
+                </a>
+             </li>
+            </g:if>
+
         </ul>
     </div>
 
