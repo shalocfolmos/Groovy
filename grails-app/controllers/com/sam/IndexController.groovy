@@ -19,9 +19,10 @@ class IndexController {
         if(params.module == 'templateFramework') {
             def templateFrameworkCollection = TemplateFramework.findAll()
             templateFrameworkCollection.each ({it ->
+                TemplateFramework.metaClass.elementGroupCollection = []
                 def commonElementGroupCollection = CommonElementGroup.findAllByTemplateFrameworkId(it.id)
                 if(commonElementGroupCollection && commonElementGroupCollection.size() > 0) {
-                    it.elementGroupCollection = commonElementGroupCollection
+                    TemplateFramework.metaClass.elementGroupCollection = commonElementGroupCollection
                 }
             }
             );

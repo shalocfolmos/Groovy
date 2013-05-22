@@ -17,12 +17,27 @@
             <li style="display:inline; padding-left: 15px;">
                 <g:link controller="templateFramework" action="delete" id="${templateFramework?.id}">删除模板框架</g:link>
             </li>
-            <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED && templateFramework.elementGroupCollection}">
-             <li>
-                <a href="" name="">
-                    编辑组件内容
-                </a>
-             </li>
+            <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED && templateFramework.elementGroupCollection.size() > 0}">
+                <g:if test="${templateFramework.elementGroupCollection.size() == 1}">
+                    <li>
+                        <a href="" name="">
+                            编辑组件内容
+                        </a>
+                        <ul name="templateFramework_menu_${templateFramework.id}" id="jqueryMenu">
+                            <g:each in="${templateFramework.elementGroupCollection}" var="i">
+                                `<li>${i.name}</li>
+                            </g:each>
+                        </ul>
+                    </li>
+                </g:if>
+                <g:if test="${templateFramework.elementGroupCollection.size() > 1}">
+                    <ul name="templateFramework_menu_${templateFramework.id}" id="jqueryMenu">
+                        <g:each in="${templateFramework.elementGroupCollection}" var="i">
+                            `<li>${i.name}</li>
+                        </g:each>
+                    </ul>
+                </g:if>
+
             </g:if>
 
         </ul>
@@ -32,12 +47,18 @@
 <g:javascript library="jquery"/>
 <script type="text/javascript">
     $(document).ready(
-            function() {
-                if($('a[name*="createElementGroup_"]').length > 0){
-                    initGenerateCommonElement();
-                }
+        function() {
+            if($('a[name*="createElementGroup_"]').length > 0){
+                initGenerateCommonElement();
             }
-    )
+        }
+
+        function() {
+            if($('ul[name*="templateFramework_menu_"]').length > 0){
+                initCommentElementMenu();
+            }
+        }
+    );
 </script>
 
 
