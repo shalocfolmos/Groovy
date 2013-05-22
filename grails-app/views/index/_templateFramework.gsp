@@ -33,7 +33,7 @@
                 <g:if test="${templateFramework.elementGroupCollection.size() > 1}">
                     <ul name="templateFramework_menu_${templateFramework.id}" id="jqueryMenu">
                         <g:each in="${templateFramework.elementGroupCollection}" var="i">
-                            `<li>${i.name}</li>
+                            `<li>1${i.name}</li>
                         </g:each>
                     </ul>
                 </g:if>
@@ -44,16 +44,13 @@
     </div>
 
 </g:each>
-<g:javascript library="jquery"/>
 <script type="text/javascript">
     $(document).ready(
         function() {
             if($('a[name*="createElementGroup_"]').length > 0){
                 initGenerateCommonElement();
             }
-        }
 
-        function() {
             if($('ul[name*="templateFramework_menu_"]').length > 0){
                 initCommentElementMenu();
             }
