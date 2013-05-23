@@ -20,20 +20,21 @@
             <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED && templateFramework.elementGroupCollection.size() > 0}">
                 <g:if test="${templateFramework.elementGroupCollection.size() == 1}">
                     <li>
-                        <a href="" name="">
+                        <a href="" name="editElementSingleLink_${templateFramework.elementGroupCollection[0].id}">
                             编辑组件内容
                         </a>
-                        <ul name="templateFramework_menu_${templateFramework.id}" id="jqueryMenu">
-                            <g:each in="${templateFramework.elementGroupCollection}" var="i">
-                                `<li>${i.name}</li>
-                            </g:each>
-                        </ul>
                     </li>
                 </g:if>
                 <g:if test="${templateFramework.elementGroupCollection.size() > 1}">
+                    <li>
+                        <a onclick="displayMenu()" name="editElementMultipleLink_${templateFramework?.id}">
+                            编辑组件内容
+                        </a>
+                    </li>
+
                     <ul name="templateFramework_menu_${templateFramework.id}" id="jqueryMenu">
                         <g:each in="${templateFramework.elementGroupCollection}" var="i">
-                            `<li>1${i.name}</li>
+                            <li>1${i.name}</li>
                         </g:each>
                     </ul>
                 </g:if>
