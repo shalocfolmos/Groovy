@@ -19,22 +19,22 @@
             </li>
             <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED && templateFramework.elementGroupCollection.size() > 0}">
                 <g:if test="${templateFramework.elementGroupCollection.size() == 1}">
-                    <li>
-                        <a href="" name="editElementSingleLink_${templateFramework.elementGroupCollection[0].id}">
+                    <li style="display:inline; padding-left: 15px;">
+                        <a href="" name="editCommonElementGroupLink_${templateFramework.id}" groupId="${templateFramework.elementGroupCollection[0].id}">
                             编辑组件内容
                         </a>
                     </li>
                 </g:if>
                 <g:if test="${templateFramework.elementGroupCollection.size() > 1}">
-                    <li>
-                        <a onclick="displayMenu()" name="editElementMultipleLink_${templateFramework?.id}">
+                    <li style="display:inline; padding-left: 15px;">
+                        <a href=""  name="displayElementGroupMenuLink_${templateFramework?.id}" templateFrameworkId="${templateFramework?.id}">
                             编辑组件内容
                         </a>
                     </li>
 
-                    <ul name="templateFramework_menu_${templateFramework.id}" id="jqueryMenu">
+                    <ul id="commonElementGroupMenu_${templateFramework.id}" >
                         <g:each in="${templateFramework.elementGroupCollection}" var="i">
-                            <li>1${i.name}</li>
+                            <li><a href="" name="groupMenuItem_${templateFramework.id}" menuItemId="${i.id}">${i.name}</a></li>
                         </g:each>
                     </ul>
                 </g:if>
@@ -51,9 +51,8 @@
             if($('a[name*="createElementGroup_"]').length > 0){
                 initGenerateCommonElement();
             }
-
-            if($('ul[name*="templateFramework_menu_"]').length > 0){
-                initCommentElementMenu();
+            if($('a[name*="displayElementGroupMenuLink_"]').length > 0 || $('a[name*="editCommonElementGroupLink_"]').length > 0){
+                initEditCommonElementGroupLink();
             }
         }
     );
