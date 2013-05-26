@@ -45,7 +45,8 @@
         </ul>
     </div>
 </g:each>
-<ul id="menuContainer">
+<ul id="menuContainer" style="display: none">
+
 
 </ul>
 <script type="text/javascript">
