@@ -62,27 +62,10 @@ function initEditCommonElementGroupLink() {
         }
     )
 
-//
-//
-//
-//    $('a[name*="editTemplateFrameworkElementGroupLink_"]').click(
-//        function(event) {
-//            event.preventDefault();
-//            var elementGroupId = $(this).attr("groupId");
-//            alert(elementGroupId);
-//        }
-//
-//
-//    );
-//
-//
-//    $('ul[name*="templateFramework_menu_"]').each(
-//        function() {
-//            $(this).menu();
-//        }
-//    )
+
 }
 
-function displayCommonElementContent(commonElementGroupId) {
-    alert("commonElementGroupId--" + commonElementGroupId);
+function showElementGroupPanel (groupId) {
+
+
 }
