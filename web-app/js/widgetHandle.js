@@ -19,19 +19,25 @@ function initEditCommonElementGroupLink() {
 
 
             $('#commonElementGroupMenu_'+templateFrameworkId).menu();
+            $('#commonElementGroupMenu_' + templateFrameworkId).hide();
 
             $(obj).click(
                 function(event) {
                     event.preventDefault();
+                    var objOffset = $(this).offset();
+                    $('#commonElementGroupMenu_' + $(this).attr("templateFrameworkId")).css("z-index", "99");
+                    $('#commonElementGroupMenu_' + $(this).attr("templateFrameworkId")).css("display", "inline");
+                    $('#commonElementGroupMenu_' + $(this).attr("templateFrameworkId")).offset({left:objOffset.left + 40, top:objOffset.top + 20});
+                    $('#commonElementGroupMenu_' + $(this).attr("templateFrameworkId")).show(2000);
 
                 }
             );
-            $('a[name="groupMenuItem_"'+ templateFrameworkId +']').each(
+            $('a[name="groupMenuItem_'+ templateFrameworkId +'"]').each(
                 function() {
                     $(this).click(
                         function(event){
                             event.preventDefault();
-                            alert("v");
+                            $('#commonElementGroupMenu_' + templateFrameworkId).hide();
                         }
                     );
                 }

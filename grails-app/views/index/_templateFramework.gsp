@@ -26,25 +26,28 @@
                     </li>
                 </g:if>
                 <g:if test="${templateFramework.elementGroupCollection.size() > 1}">
-                    <li style="display:inline; padding-left: 15px;">
+                    <li style="display:inline; padding-left: 15px; ">
                         <a href=""  name="displayElementGroupMenuLink_${templateFramework?.id}" templateFrameworkId="${templateFramework?.id}">
                             编辑组件内容
                         </a>
                     </li>
-
-                    <ul id="commonElementGroupMenu_${templateFramework.id}" >
-                        <g:each in="${templateFramework.elementGroupCollection}" var="i">
-                            <li><a href="" name="groupMenuItem_${templateFramework.id}" menuItemId="${i.id}">${i.name}</a></li>
-                        </g:each>
-                    </ul>
+                    <div style="display: none;">
+                        <ul id="commonElementGroupMenu_${templateFramework.id}">
+                            <g:each in="${templateFramework.elementGroupCollection}" var="i">
+                                <li><a href="" name="groupMenuItem_${templateFramework.id}" menuItemId="${i.id}">${i.name}</a></li>
+                            </g:each>
+                        </ul>
+                    </div>
                 </g:if>
 
             </g:if>
 
         </ul>
     </div>
-
 </g:each>
+<ul id="menuContainer">
+
+</ul>
 <script type="text/javascript">
     $(document).ready(
         function() {
