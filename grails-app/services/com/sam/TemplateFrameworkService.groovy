@@ -22,5 +22,10 @@ class TemplateFrameworkService {
         templateFramework.save(flush:true)
 //        templateFramework.save(flush:true)
     }
+
+    def deleteCommentElementGroup(Long frameworkId) {
+        def group = CommonElementGroup.findByTemplateFrameworkId(String.valueOf(frameworkId))
+        group.delete()
+    }
 }
 

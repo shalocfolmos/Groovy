@@ -45,10 +45,7 @@
         </ul>
     </div>
 </g:each>
-<ul id="menuContainer" style="display: none">
-
-
-</ul>
+<ul id="menuContainer" style="display: none"></ul>
 <script type="text/javascript">
     $(document).ready(
         function() {

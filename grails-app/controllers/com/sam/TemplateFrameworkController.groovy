@@ -123,6 +123,7 @@ class TemplateFrameworkController {
         }
 
         try {
+            templateFrameworkService.deleteCommentElementGroup(id)
             templateFrameworkInstance.delete(flush: true)
             flash.message = message(code: 'default.deleted.message', args: [message(code: 'templateFramework.label', default: 'TemplateFramework'), id])
             flash.page = "templateFramework"

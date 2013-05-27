@@ -16,9 +16,17 @@ function initEditCommonElementGroupLink() {
 
         if(!event.target.attributes["name"]) {
             $('#menuContainer').hide();
+            $('#menuContainer').menu("destroy");
+            $('#menuContainer').html();
         }
-        else if(!event.target.attributes["name"].startwith("groupMenuItem") && !event.target.attributes["name"].startwith("displayElementGroupMenuLink")){
+        else if(!event.target.name.startsWith("groupMenuItem") && !event.target.name.startsWith("displayElementGroupMenuLink")){
             $('#menuContainer').hide();
+            $('#menuContainer').menu("destroy");
+            $('#menuContainer').html();
+        }
+        else if(event.target.name.startsWith("groupMenuItem")){
+            event.preventDefault;
+            showElementGroupPanel(event.target.attributes["menuitemid"].nodeValue);
         }
 
     });
@@ -31,14 +39,11 @@ function initEditCommonElementGroupLink() {
 
 
 
-            $('#commonElementGroupMenu_'+templateFrameworkId).menu();
-            $('#commonElementGroupMenu_' + templateFrameworkId).hide();
-
             $(obj).click(
                 function(event) {
                     event.preventDefault();
                     var objOffset = $(this).offset();
-                    $('#menuContainer').html();
+                    $('#menuContainer').html("");
                     $('#menuContainer').html($('#commonElementGroupMenu_' + $(this).attr("templateFrameworkId")).html());
                     $('#menuContainer').menu();
                     $('#menuContainer').css("z-index", "99");
@@ -48,16 +53,16 @@ function initEditCommonElementGroupLink() {
 
                 }
             );
-            $('a[name="groupMenuItem_'+ templateFrameworkId +'"]').each(
-                function() {
-                    $(this).click(
-                        function(event){
-                            event.preventDefault();
-                            $('#commonElementGroupMenu_' + templateFrameworkId).hide();
-                        }
-                    );
-                }
-            )
+//            $('a[name="groupMenuItem_'+ templateFrameworkId +'"]').each(
+//                function() {
+//                    $(this).click(
+//                        function(event){
+//                            event.preventDefault();
+//                            showElementGroupPanel($(this).attr("menuItemId"));
+//                        }
+//                    );
+//                }
+//            )
 
         }
     )
@@ -66,6 +71,6 @@ function initEditCommonElementGroupLink() {
 }
 
 function showElementGroupPanel (groupId) {
-
+    $('#menuContainer').hide();
 
 }

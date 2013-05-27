@@ -10,5 +10,6 @@ class CommonElementGroup {
     static constraints = {
         name nullable: false
         templateFrameworkId nullable: false
+        commonElements cascade:"all"
     }
 }

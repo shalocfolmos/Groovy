@@ -36,6 +36,25 @@ class CommonElementGroupController {
         }
     }
 
+
+    def listGroupElement(Long id) {
+        try {
+            def elementGroup = CommonElementGroup.get(id)
+            if (!elementGroup){
+                render "组件群不存在!"
+            }
+            else {
+                Set<CommonElement> commonElementSet = elementGroup.commonElements
+
+                commonElementService.generateCommonElementGroup(params)
+                render "T"
+            }
+        } catch (Exception e) {
+            render "创建失败,请重新尝试"
+        }
+    }
+
+
     def save() {
         def commonElementGroupInstance = new CommonElementGroup(params)
         if (!commonElementGroupInstance.save(flush: true)) {
@@ -47,56 +66,8 @@ class CommonElementGroupController {
         redirect(action: "show", id: commonElementGroupInstance.id)
     }
 
-    def show(Long id) {
-        def commonElementGroupInstance = CommonElementGroup.get(id)
-        if (!commonElementGroupInstance) {
-            flash.message = message(code: 'default.not.found.message', args: [message(code: 'commonElementGroup.label', default: 'CommonElementGroup'), id])
-            redirect(action: "list")
-            return
-        }
 
-        [commonElementGroupInstance: commonElementGroupInstance]
-    }
 
-    def edit(Long id) {
-        def commonElementGroupInstance = CommonElementGroup.get(id)
-        if (!commonElementGroupInstance) {
-            flash.message = message(code: 'default.not.found.message', args: [message(code: 'commonElementGroup.label', default: 'CommonElementGroup'), id])
-            redirect(action: "list")
-            return
-        }
-
-        [commonElementGroupInstance: commonElementGroupInstance]
-    }
-
-    def update(Long id, Long version) {
-        def commonElementGroupInstance = CommonElementGroup.get(id)
-        if (!commonElementGroupInstance) {
-            flash.message = message(code: 'default.not.found.message', args: [message(code: 'commonElementGroup.label', default: 'CommonElementGroup'), id])
-            redirect(action: "list")
-            return
-        }
-
-        if (version != null) {
-            if (commonElementGroupInstance.version > version) {
-                commonElementGroupInstance.errors.rejectValue("version", "default.optimistic.locking.failure",
-                        [message(code: 'commonElementGroup.label', default: 'CommonElementGroup')] as Object[],
-                        "Another user has updated this CommonElementGroup while you were editing")
-                render(view: "edit", model: [commonElementGroupInstance: commonElementGroupInstance])
-                return
-            }
-        }
-
-        commonElementGroupInstance.properties = params
-
-        if (!commonElementGroupInstance.save(flush: true)) {
-            render(view: "edit", model: [commonElementGroupInstance: commonElementGroupInstance])
-            return
-        }
-
-        flash.message = message(code: 'default.updated.message', args: [message(code: 'commonElementGroup.label', default: 'CommonElementGroup'), commonElementGroupInstance.id])
-        redirect(action: "show", id: commonElementGroupInstance.id)
-    }
 
     def delete(Long id) {
         def commonElementGroupInstance = CommonElementGroup.get(id)
