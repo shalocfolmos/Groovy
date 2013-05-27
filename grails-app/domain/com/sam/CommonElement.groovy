@@ -1,6 +1,6 @@
 package com.sam
 
-class attributesCommonElement {
+class CommonElement {
 
     static belongsTo = [group:CommonElementGroup]
     Segment segment
@@ -13,6 +13,5 @@ class attributesCommonElement {
         group column:"template_framework_fk"
         segment column:"segment_fk"
         attributes(lazy: false, cascade: "all")
-
     }
 }
