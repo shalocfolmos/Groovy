@@ -54,6 +54,10 @@ class CommonElementGroupController {
                     else if (commonElement.segment.segmentType==SegmentType.ANCESTOR) {
                         content += g.render(template:"/commonElement/linkEditTemplate",model:[element:commonElement]).toString()
                     }
+                    else if (commonElement.segment.segmentType == SegmentType.OTHERS) {
+                        content += g.render(template:"/commonElement/otherEditTemplate",model:[element:commonElement]).toString()
+
+                    }
                 }
 
                 render content

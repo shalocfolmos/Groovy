@@ -6,14 +6,12 @@
             <div>
                 <span style="font-size: 15px;padding-left: 15px;display: block;width: 120px; float: left;">链接地址:</span>
                 <g:textField style="width: 250px;height: 20px;" name="templateElements[${element_index}].attributes[${attributeIndex}].attribute_value" value="${attribute.attribute_value}"></g:textField>
-                <g:hiddenField name="templateElements[${element_index}].attributes[${attributeIndex}].attribute_type" value="ANCESOR_HREF_ATTR"/>
                 <g:hiddenField name="templateElements[${element_index}].attributes[${attributeIndex}].id" value="${attribute.id}"/>
             </div>
         </g:if>
         <g:if test="${attribute.attribute_type == AttributeType.TEXT_CONTACT}">
             <span style="font-size: 15px;padding-left: 15px;display: block;width: 120px; float: left;">显示文字:</span>
             <g:textField style="width: 250px;height: 20px;" name="templateElements[${element_index}].attributes[${attributeIndex}].attribute_value" value="${attribute.attribute_value}"></g:textField>
-            <g:hiddenField name="templateElements[${element_index}].attributes[${attributeIndex}].attribute_type" value="TEXT_CONTACT"/>
             <g:hiddenField name="templateElements[${element_index}].attributes[${attributeIndex}].id" value="${attribute.id}"/>
         </g:if>
     </div>

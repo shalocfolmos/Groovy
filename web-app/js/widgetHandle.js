@@ -82,7 +82,7 @@ function showElementGroupPanel (groupId) {
             success:function(data,textStatus) {
                 $("#commonElementAttributeDialog").dialog("destroy");
                 $("#commonElementAttributeDialog").html();
-                $("#commonElementAttributeDialog").html("test");
+                $("#commonElementAttributeDialog").html(data);
                 $("#commonElementAttributeDialog").dialog(
                     {
                         autoOpen:false,
