@@ -1,6 +1,7 @@
 package com.sam
 
 import org.springframework.dao.DataIntegrityViolationException
+import grails.converters.JSON
 
 class CommonElementGroupController {
 
@@ -40,14 +41,22 @@ class CommonElementGroupController {
     def listGroupElement(Long id) {
         try {
             def elementGroup = CommonElementGroup.get(id)
-            if (!elementGroup){
+            if (!elementGroup) {
                 render "组件群不存在!"
             }
             else {
-                Set<CommonElement> commonElementSet = elementGroup.commonElements
+                String content = ""
+                Set<CommonElement>commonElementSet = elementGroup.commonElements
+                for(commonElement in commonElementSet) {
+                    if(commonElement.segment.segmentType==SegmentType.IMAGE) {
+                        content += g.render(template:"/commonElement/imageEditTemplate",model:[element:commonElement]).toString()
+                    }
+                    else if (commonElement.segment.segmentType==SegmentType.ANCESTOR) {
+                        content += g.render(template:"/commonElement/linkEditTemplate",model:[element:commonElement]).toString()
+                    }
+                }
 
-                commonElementService.generateCommonElementGroup(params)
-                render "T"
+                render content
             }
         } catch (Exception e) {
             render "创建失败,请重新尝试"
@@ -64,27 +73,5 @@ class CommonElementGroupController {
 
         flash.message = message(code: 'default.created.message', args: [message(code: 'commonElementGroup.label', default: 'CommonElementGroup'), commonElementGroupInstance.id])
         redirect(action: "show", id: commonElementGroupInstance.id)
-    }
-
-
-
-
-    def delete(Long id) {
-        def commonElementGroupInstance = CommonElementGroup.get(id)
-        if (!commonElementGroupInstance) {
-            flash.message = message(code: 'default.not.found.message', args: [message(code: 'commonElementGroup.label', default: 'CommonElementGroup'), id])
-            redirect(action: "list")
-            return
-        }
-
-        try {
-            commonElementGroupInstance.delete(flush: true)
-            flash.message = message(code: 'default.deleted.message', args: [message(code: 'commonElementGroup.label', default: 'CommonElementGroup'), id])
-            redirect(action: "list")
-        }
-        catch (DataIntegrityViolationException e) {
-            flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'commonElementGroup.label', default: 'CommonElementGroup'), id])
-            redirect(action: "show", id: id)
-        }
     }
 }

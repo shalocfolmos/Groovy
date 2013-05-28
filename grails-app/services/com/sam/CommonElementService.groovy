@@ -17,7 +17,7 @@ class CommonElementService {
         checkedSegments.each() {it ->
             def segment = Segment.findBySegmentId(it)
             def commonElement = new CommonElement(segment:segment)
-            commonElement.save()
+            commonElementGroup.addToCommonElements(commonElement)
         }
         commonElementGroup.save()
     }

@@ -46,6 +46,7 @@
     </div>
 </g:each>
 <ul id="menuContainer" style="display: none"></ul>
+<div id="commonElementAttributeDialog" style="display: none;"></div>
 <script type="text/javascript">
     $(document).ready(
         function() {

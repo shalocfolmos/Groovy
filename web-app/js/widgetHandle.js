@@ -72,5 +72,42 @@ function initEditCommonElementGroupLink() {
 
 function showElementGroupPanel (groupId) {
     $('#menuContainer').hide();
+    var listElementLink = $('[name="listCommonGroupElement"]').attr("href");
+    $.ajax(
+        {
+            type:"POST",
+            async:false,
+            url:listElementLink,
+            data:{'id':groupId},
+            success:function(data,textStatus) {
+                $("#commonElementAttributeDialog").dialog("destroy");
+                $("#commonElementAttributeDialog").html();
+                $("#commonElementAttributeDialog").html("test");
+                $("#commonElementAttributeDialog").dialog(
+                    {
+                        autoOpen:false,
+                        width:800,
+                        modal:true,
+                        buttons: {
+                            "创建":function(){
+                                $("#segmentListDialog").dialog("close");
+                            },
+                            "关闭":function() {
+                                $(this).dialog("close");
+                            }
+                        }
+                    }
+                );
+                $("#commonElementAttributeDialog").dialog("open");
 
+            },
+            error:function() {
+            }
+        }
+    )
 }
+
+
+
+
+

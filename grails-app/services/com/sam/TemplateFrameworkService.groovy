@@ -20,7 +20,6 @@ class TemplateFrameworkService {
         templateFramework.compile()
         templateFramework.templateFrameworkStatus = TemplateFrameworkStatus.COMPILED
         templateFramework.save(flush:true)
-//        templateFramework.save(flush:true)
     }
 
     def deleteCommentElementGroup(Long frameworkId) {

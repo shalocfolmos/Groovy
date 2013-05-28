@@ -125,6 +125,7 @@
         </div>
         <g:link controller="templateFramework" action="getAllSegments" style="display: none;" name="getAllSegmentsLink"/>
         <g:link controller="commonElementGroup" action="generateCommonElementGroup" style="display: none;" name="postCommonGroupLink"/>
+        <g:link controller="commonElementGroup" action="listGroupElement" style="display: none;" name="listCommonGroupElement"/>
 
         <script type="text/javascript">
                 $(document).ready(
@@ -190,7 +191,6 @@
                                                                     alert("创建失败,请重新尝试");
                                                                 }
                                                             }
-
                                                     )
                                                 }
                                             },
