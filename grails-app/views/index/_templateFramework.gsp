@@ -34,7 +34,14 @@
                     <div style="display: none;">
                         <ul id="commonElementGroupMenu_${templateFramework.id}">
                             <g:each in="${templateFramework.elementGroupCollection}" var="i">
-                                <li><a href="" name="groupMenuItem_${templateFramework.id}" menuItemId="${i.id}">${i.name}</a></li>
+                                <li>
+                                    <a href="" name="groupMenuItem_${templateFramework.id}" menuItemId="${i.id}">${i.name}</a>
+                                    <ul>
+                                        <li>
+                                            <a href="" name="deleteMenuItem_${templateFramework.id}" menuItemId="${i.id}">删除</a>
+                                        </li>
+                                    </ul>
+                                </li>
                             </g:each>
                         </ul>
                     </div>

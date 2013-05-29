@@ -126,7 +126,8 @@
         <g:link controller="templateFramework" action="getAllSegments" style="display: none;" name="getAllSegmentsLink"/>
         <g:link controller="commonElementGroup" action="generateCommonElementGroup" style="display: none;" name="postCommonGroupLink"/>
         <g:link controller="commonElementGroup" action="listGroupElement" style="display: none;" name="listCommonGroupElement"/>
-
+        <g:link controller="commonElementGroup" action="saveElementContent" style="display: none;" name="editCommonGroupElement"/>
+        <g:link controller="commonElementGroup" action="deleteCommonElementGroup" style="display: none;" name="deleteCommonElementGroup"/>
         <script type="text/javascript">
                 $(document).ready(
                         function() {

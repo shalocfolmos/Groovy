@@ -19,6 +19,7 @@ class CommonElementController {
         [commonElementInstance: new CommonElement(params)]
     }
 
+
     def save() {
         def commonElementInstance = new CommonElement(params)
         if (!commonElementInstance.save(flush: true)) {

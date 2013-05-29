@@ -22,6 +22,13 @@ class CommonElementGroupController {
         [commonElementGroupInstance: new CommonElementGroup(params)]
     }
 
+    def deleteCommonElementGroup(Long id) {
+        def group = CommonElementGroup.get(id)
+        if (group) {
+            group.delete()
+        }
+    }
+
     def generateCommonElementGroup() {
         try {
 
@@ -37,6 +44,24 @@ class CommonElementGroupController {
         }
     }
 
+    def saveElementContent() {
+        try {
+            params.content.split(",").each {it ->
+                def attributeId = it.split(":")[0]
+                def attributeValue = it.split(":")[1]
+                def commonElementAttribute = CommonElementAttribute.get(attributeId)
+                if (commonElementAttribute) {
+                    commonElementAttribute.attribute_value = attributeValue
+                    commonElementAttribute.save()
+                }
+            }
+            render "编辑成功,请重新尝试"
+        }
+        catch (Exception e) {
+            render "服务器发生异常,请重新尝试"
+        }
+
+    }
 
     def listGroupElement(Long id) {
         try {
@@ -56,7 +81,6 @@ class CommonElementGroupController {
                     }
                     else if (commonElement.segment.segmentType == SegmentType.OTHERS) {
                         content += g.render(template:"/commonElement/otherEditTemplate",model:[element:commonElement]).toString()
-
                     }
                 }
 
@@ -67,15 +91,4 @@ class CommonElementGroupController {
         }
     }
 
-
-    def save() {
-        def commonElementGroupInstance = new CommonElementGroup(params)
-        if (!commonElementGroupInstance.save(flush: true)) {
-            render(view: "create", model: [commonElementGroupInstance: commonElementGroupInstance])
-            return
-        }
-
-        flash.message = message(code: 'default.created.message', args: [message(code: 'commonElementGroup.label', default: 'CommonElementGroup'), commonElementGroupInstance.id])
-        redirect(action: "show", id: commonElementGroupInstance.id)
-    }
 }

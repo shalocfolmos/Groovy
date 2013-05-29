@@ -7,7 +7,7 @@
         <g:if test="${attribute.attribute_type == AttributeType.TEXT_CONTACT}">
             <div name="common_attribute_${attribute.id}" attribute_id="${attribute.id}">
                 <span style="font-size: 15px;padding-left: 15px;display: block;width: 120px; float: left;">显示文字:</span>
-                <g:textField style="width: 250px;height: 20px;" name="common_attribute_${attribute.id}_value" value="${attribute.attribute_value}"></g:textField>
+                <g:textField style="width: 250px;height: 20px;" name="common_attribute_value_${attribute.id}" value="${attribute.attribute_value}"></g:textField>
             </div>
         </g:if>
     </div>

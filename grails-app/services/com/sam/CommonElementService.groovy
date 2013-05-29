@@ -2,7 +2,7 @@ package com.sam
 
 class CommonElementService {
 
-    def serviceMethod() {
+    def updateCommonElementAttribute(def attributeContent) {
 
     }
 

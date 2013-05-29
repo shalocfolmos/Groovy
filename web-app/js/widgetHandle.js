@@ -37,13 +37,12 @@ function initEditCommonElementGroupLink() {
         function(i,obj) {
             var templateFrameworkId = $(obj).attr("templateFrameworkId");
 
-
-
             $(obj).click(
                 function(event) {
                     event.preventDefault();
                     var objOffset = $(this).offset();
                     $('#menuContainer').html("");
+                    $('#menuContainer').menu("destroy");
                     $('#menuContainer').html($('#commonElementGroupMenu_' + $(this).attr("templateFrameworkId")).html());
                     $('#menuContainer').menu();
                     $('#menuContainer').css("z-index", "99");
@@ -53,16 +52,35 @@ function initEditCommonElementGroupLink() {
 
                 }
             );
-//            $('a[name="groupMenuItem_'+ templateFrameworkId +'"]').each(
-//                function() {
-//                    $(this).click(
-//                        function(event){
-//                            event.preventDefault();
-//                            showElementGroupPanel($(this).attr("menuItemId"));
-//                        }
-//                    );
-//                }
-//            )
+
+        }
+    )
+
+    $('a[name*="deleteMenuItem_"]').each(
+        function(i,obj) {
+            $(obj).click(
+                function(event) {
+                    event.preventDefault();
+                    $('#menuContainer').hide();
+                    $('#menuContainer').html("");
+                    $('#menuContainer').menu("destroy");
+
+                    var groupId = $(this).attr("menuItemId"),
+                    deleteElementGroupLink = $('[name="deleteCommonElementGroup"]').attr("href");;
+                    $.ajax(
+                        {
+                            type:"POST",
+                            async:false,
+                            url:deleteElementGroupLink,
+                            data:{'id':groupId},
+                            success:function(data,textStatus) {
+                                alert(data);
+                            }
+                        }
+                    );
+
+                }
+            );
 
         }
     )
@@ -90,10 +108,35 @@ function showElementGroupPanel (groupId) {
                         modal:true,
                         buttons: {
                             "创建":function(){
-                                $("#segmentListDialog").dialog("close");
+
+                                var parameter = "",
+                                editCommonGroupElementLink = $("a[name='editCommonGroupElement']").attr("href");
+                                $('div[name*="common_attribute_"]').each(
+                                    function() {
+                                        parameter+=$(this).attr("attribute_id")+":"+$("[name='common_attribute_value_" + $(this).attr("attribute_id") + "']").attr("value");
+                                        parameter += ",";
+                                    }
+                                );
+
+                                $.ajax(
+                                    {
+                                        type:"POST",
+                                        url:editCommonGroupElementLink,
+                                        data:{content:parameter},
+                                        success:function(data) {
+                                            alert(data);
+                                        },
+                                        error:function() {
+                                            alert("服务器异常,重新尝试!");
+                                        }
+                                    }
+
+                                );
+
+                                $("#commonElementAttributeDialog").dialog("close");
                             },
                             "关闭":function() {
-                                $(this).dialog("close");
+                                $("#commonElementAttributeDialog").dialog("close");
                             }
                         }
                     }
@@ -102,6 +145,7 @@ function showElementGroupPanel (groupId) {
 
             },
             error:function() {
+                alert("服务器异常,重新尝试!");
             }
         }
     )
