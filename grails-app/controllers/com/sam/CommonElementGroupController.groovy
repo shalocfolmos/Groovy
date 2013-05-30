@@ -23,10 +23,20 @@ class CommonElementGroupController {
     }
 
     def deleteCommonElementGroup(Long id) {
+
         def group = CommonElementGroup.get(id)
-        if (group) {
-            group.delete()
+        if (!group) {
+            render "操作异常,请重新尝试"
+            return
         }
+        try {
+            group.delete()
+            render "删除成功!"
+        }
+        catch (Exception e) {
+            render "服务器异常,请重新尝试"
+        }
+
     }
 
     def generateCommonElementGroup() {

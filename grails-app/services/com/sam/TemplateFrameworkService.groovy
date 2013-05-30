@@ -24,7 +24,10 @@ class TemplateFrameworkService {
 
     def deleteCommentElementGroup(Long frameworkId) {
         def group = CommonElementGroup.findByTemplateFrameworkId(String.valueOf(frameworkId))
-        group.delete()
+        if(group) {
+            group.delete()
+
+        }
     }
 }
 

@@ -35,12 +35,9 @@
                         <ul id="commonElementGroupMenu_${templateFramework.id}">
                             <g:each in="${templateFramework.elementGroupCollection}" var="i">
                                 <li>
-                                    <a href="" name="groupMenuItem_${templateFramework.id}" menuItemId="${i.id}">${i.name}</a>
-                                    <ul>
-                                        <li>
-                                            <a href="" name="deleteMenuItem_${templateFramework.id}" menuItemId="${i.id}">删除</a>
-                                        </li>
-                                    </ul>
+                                    <a style="float: left;padding-right: 20px;" href="" name="groupMenuItem_${templateFramework.id}" menuItemId="${i.id}">${i.name}</a>
+                                    <a href="" name="deleteMenuItem_${templateFramework.id}" menuItemId="${i.id}">删除</a>
+                                    <div style="clear: both;"></div>
                                 </li>
                             </g:each>
                         </ul>

@@ -19,14 +19,21 @@ function initEditCommonElementGroupLink() {
             $('#menuContainer').menu("destroy");
             $('#menuContainer').html();
         }
-        else if(!event.target.name.startsWith("groupMenuItem") && !event.target.name.startsWith("displayElementGroupMenuLink")){
+        else if(!event.target.name.startsWith("groupMenuItem") && !event.target.name.startsWith("displayElementGroupMenuLink")
+            && !event.target.name.startsWith("deleteMenuItem_")){
             $('#menuContainer').hide();
             $('#menuContainer').menu("destroy");
             $('#menuContainer').html();
         }
         else if(event.target.name.startsWith("groupMenuItem")){
-            event.preventDefault;
+            event.preventDefault();
+            $('#menuContainer').hide();
             showElementGroupPanel(event.target.attributes["menuitemid"].nodeValue);
+        }
+        else if(event.target.name.startsWith("deleteMenuItem_")){
+            event.preventDefault();
+            $('#menuContainer').hide();
+            deleteElementGroup(event.target.attributes["menuitemid"].nodeValue);
         }
 
     });
@@ -55,41 +62,31 @@ function initEditCommonElementGroupLink() {
 
         }
     )
-
-    $('a[name*="deleteMenuItem_"]').each(
-        function(i,obj) {
-            $(obj).click(
-                function(event) {
-                    event.preventDefault();
-                    $('#menuContainer').hide();
-                    $('#menuContainer').html("");
-                    $('#menuContainer').menu("destroy");
-
-                    var groupId = $(this).attr("menuItemId"),
-                    deleteElementGroupLink = $('[name="deleteCommonElementGroup"]').attr("href");;
-                    $.ajax(
-                        {
-                            type:"POST",
-                            async:false,
-                            url:deleteElementGroupLink,
-                            data:{'id':groupId},
-                            success:function(data,textStatus) {
-                                alert(data);
-                            }
-                        }
-                    );
-
-                }
-            );
-
-        }
-    )
-
-
 }
 
+function deleteElementGroup(groupId){
+    var deleteElementGroupLink = $('[name="deleteCommonElementGroup"]').attr("href");
+    $.ajax(
+        {
+            type:"POST",
+            async:false,
+            url:deleteElementGroupLink,
+            data:{'id':groupId},
+            success:function(data,textStatus) {
+                alert(data);
+                location.reload();
+            },
+            error:function() {
+                alert("服务器异常,重新尝试!");
+            }
+        }
+    );
+}
+
+
+
 function showElementGroupPanel (groupId) {
-    $('#menuContainer').hide();
+
     var listElementLink = $('[name="listCommonGroupElement"]').attr("href");
     $.ajax(
         {

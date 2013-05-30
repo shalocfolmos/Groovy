@@ -4,6 +4,8 @@
 		<meta name="layout" content="main"/>
 		<title>Welcome to Grails</title>
 		<style type="text/css" media="screen">
+            .ui-menu { width: 300px; }
+
 			#status {
 				background-color: #eee;
 				border: .2em solid #fff;
