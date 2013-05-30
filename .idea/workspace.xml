@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateFrameworkController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateFrameworkController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/sam/CommonElementService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/sam/CommonElementService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
     </list>
     <ignored path="workspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,68 +65,7 @@
     <favorites_list name="workspace" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="widgetHandle.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/js/widgetHandle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="31" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonElementService.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/CommonElementService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateFrameworkService.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="44" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateFrameworkController.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateFrameworkController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="53" selection-start="4917" selection-end="4917" vertical-scroll-proportion="0.41130298">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateFramework.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateFramework.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="16" selection-start="472" selection-end="472" vertical-scroll-proportion="-2.7272727">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Template.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="333" selection-end="333" vertical-scroll-proportion="-1.3636364">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -857,7 +792,11 @@
       <created>1369922970985</created>
       <updated>1369922970985</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="    `">
+      <created>1369923644383</created>
+      <updated>1369923644383</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1086,7 +1025,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="333" selection-end="333" vertical-scroll-proportion="-1.3636364">
+        <state line="11" column="8" selection-start="333" selection-end="333" vertical-scroll-proportion="0.097402595">
           <folding />
         </state>
       </provider>
@@ -1096,7 +1035,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateFramework.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="472" selection-end="472" vertical-scroll-proportion="-2.7272727">
+        <state line="16" column="16" selection-start="472" selection-end="472" vertical-scroll-proportion="0.19480519">
           <folding />
         </state>
       </provider>
