@@ -2,11 +2,6 @@ package com.sam
 
 class CommonElementService {
 
-    def updateCommonElementAttribute(def attributeContent) {
-
-    }
-
-
     def generateCommonElementGroup (def params) {
 
         def templateFrameworkId = params.templateFrameworkId

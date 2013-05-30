@@ -22,11 +22,18 @@ class TemplateFrameworkService {
         templateFramework.save(flush:true)
     }
 
-    def deleteCommentElementGroup(Long frameworkId) {
-        def group = CommonElementGroup.findByTemplateFrameworkId(String.valueOf(frameworkId))
-        if(group) {
-            group.delete()
-
+    def deleteCommentElementGroupAndTemplate(Long frameworkId) {
+        def groupList = CommonElementGroup.findAllByTemplateFrameworkId(String.valueOf(frameworkId))
+        if(groupList) {
+            groupList.each {it ->
+                it.delete()
+            }
+        }
+        def templateList = Template.findAllByTemplateFramework(TemplateFramework.get(frameworkId))
+        if (templateList) {
+            templateList.each {it ->
+                it.delete()
+            }
         }
     }
 }
