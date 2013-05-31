@@ -17,7 +17,7 @@
             <li style="display:inline; padding-left: 15px;">
                 <g:link controller="templateFramework" action="delete" id="${templateFramework?.id}">删除模板框架</g:link>
             </li>
-            <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED && templateFramework.elementGroupCollection.size() > 0}">
+            <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED && templateFramework?.elementGroupCollection?.size() > 0}">
                 <g:if test="${templateFramework.elementGroupCollection.size() > 0}">
                     <li style="display:inline; padding-left: 15px; ">
                         <a href=""  name="displayElementGroupMenuLink_${templateFramework?.id}" templateFrameworkId="${templateFramework?.id}">
