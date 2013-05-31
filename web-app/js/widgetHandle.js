@@ -1,16 +1,6 @@
+
+
 function initEditCommonElementGroupLink() {
-
-    $('a[name*="editCommonElementGroupLink_"]').each(
-        function(i,obj) {
-            $(obj).click(
-                function(event) {
-                    event.preventDefault();
-                    alert($(this).attr("groupId"));
-                }
-            );
-        }
-    )
-
 
     $(document).click(function(event) {
 

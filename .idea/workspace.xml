@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="">
+    <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="    `">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/widgetHandle.js" afterPath="$PROJECT_DIR$/web-app/js/widgetHandle.js" />
     </list>
     <ignored path="workspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,7 +69,26 @@
     <favorites_list name="workspace" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="widgetHandle.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-app/js/widgetHandle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="6" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-0.3181818">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="6" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-44.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -86,14 +109,14 @@
         <option value="$PROJECT_DIR$/grails-app/views/commonElement/_linkEditTemplate.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/commonElement/_otherEditTemplate.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementGroupController.groovy" />
-        <option value="$PROJECT_DIR$/web-app/js/widgetHandle.js" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/com/sam/CommonElementService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateFrameworkController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy" />
+        <option value="$PROJECT_DIR$/web-app/js/widgetHandle.js" />
+        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" />
       </list>
     </option>
   </component>
@@ -259,28 +282,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commonElement" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -796,7 +797,11 @@
       <created>1369923644383</created>
       <updated>1369923644383</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="    `">
+      <created>1369923721301</created>
+      <updated>1369923721301</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -829,15 +834,14 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17340687" sideWeight="0.21902655" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24115044" sideWeight="0.5520833" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24115044" sideWeight="0.54473037" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24115044" sideWeight="0.44362745" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24115044" sideWeight="0.4509804" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17156863" sideWeight="0.46902654" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30420354" sideWeight="0.41360295" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30420354" sideWeight="0.40808824" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.48284313" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32632744" sideWeight="0.4466912" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.670354" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17340687" sideWeight="0.21902655" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.48284313" order="6" side_tool="false" content_ui="tabs" />
@@ -850,6 +854,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.49754903" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32632744" sideWeight="0.4466912" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -987,47 +992,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="12" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.35849056">
-          <folding>
-            <marker date="1369921175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1369921175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1369921175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1369921175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1369921175000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="8" selection-start="3032" selection-end="3032" vertical-scroll-proportion="0.43719414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementGroupController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="283" selection-end="283" vertical-scroll-proportion="0.28257456">
-          <folding>
-            <element signature="e#17#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/widgetHandle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="31" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="10" selection-start="283" selection-end="283" vertical-scroll-proportion="0.28257456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="333" selection-end="333" vertical-scroll-proportion="0.097402595">
-          <folding />
-        </state>
+        <state line="11" column="8" selection-start="333" selection-end="333" vertical-scroll-proportion="0.097402595" />
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
@@ -1035,9 +1007,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateFramework.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="472" selection-end="472" vertical-scroll-proportion="0.19480519">
-          <folding />
-        </state>
+        <state line="16" column="16" selection-start="472" selection-end="472" vertical-scroll-proportion="0.19480519" />
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
@@ -1045,21 +1015,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/CommonElementService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="44" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateFrameworkController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="53" selection-start="4917" selection-end="4917" vertical-scroll-proportion="0.41130298">
+        <state line="119" column="53" selection-start="4917" selection-end="4917" vertical-scroll-proportion="0.41130298" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="6" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-44.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="90" selection-start="9596" selection-end="9596" vertical-scroll-proportion="0.62805873">
+          <folding>
+            <marker date="1370003577000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1370003577000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1370003577000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1370003577000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1370003577000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/widgetHandle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="6" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-0.3181818">
           <folding />
         </state>
       </provider>
