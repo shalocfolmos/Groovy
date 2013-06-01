@@ -101,4 +101,12 @@ class CommonElementGroupController {
         }
     }
 
+    def getCommonElementGroup(Long templateId) {
+        def template = Template.get(templateId),
+        templateFrameworkId = template.templateFramework.id,
+        commonElementGroupCollection =  CommonElementGroup.findAllByTemplateFrameworkId(templateFrameworkId),
+        content = g.render(template:"commonElementGroupMenu",model:[commonElementGroupCollection:commonElementGroupCollection,templateId:templateId])
+        render content
+    }
+
 }

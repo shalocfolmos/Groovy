@@ -101,4 +101,17 @@ class TemplateController {
             redirect(controller: "index")
         }
     }
+    
+    def applyCommonElementGroup() {
+        def commonElementGroupId = params.commonElementGroupId
+        def templateId = params.templateId
+        try {
+            templateService.applyCommonElementGroup(commonElementGroupId, templateId)
+        }
+        catch (Exception e) {
+            render "服务器异常,请重新再试!"
+            return
+        }
+        render "模板已修改!"
+    }
 }

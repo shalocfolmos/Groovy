@@ -49,6 +49,32 @@ class TemplateService {
         }
     }
 
+
+    def applyCommonElementGroup(commonElementGroupId,templateId) {
+        def commonElementGroup = CommonElementGroup.get(commonElementGroupId)
+        def template = Template.get(templateId)
+        def commonElementGroupElements = commonElementGroup.commonElements
+        def templateElements = template.templateElements
+        commonElementGroupElements.each {commonElementGroupElement->
+            def templateElement = templateElements.find {it->
+                it.segment.id == commonElementGroupElement.segment.id
+            }
+            if(templateElement) {
+                commonElementGroupElement.attributes.each {commonElementGroupElementAttribute->
+                    def attribute = templateElement.attributes.find {it->
+                        it.attribute_type == commonElementGroupElementAttribute.attribute_type
+                    }
+                    if (attribute) {
+                        attribute.attribute_value = commonElementGroupElementAttribute.attribute_value
+                        attribute.save()
+                    }
+
+                }
+            }
+        }
+
+    }
+
 }
 
 

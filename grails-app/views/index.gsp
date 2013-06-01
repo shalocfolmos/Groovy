@@ -96,7 +96,6 @@
                 </li>
                 <li style="display: inline; padding-left: 10px;"><g:link action="create" controller="templateFramework">创建模板框架</g:link></li>
                 <li style="display: inline; padding-left: 10px;"><g:link action="create" controller="template">创建模板</g:link></li>
-                <li style="display: inline; padding-left: 10px;"><g:link action="create" controller="template">创建公共组件</g:link></li>
             </ul>
         </div>
         <div style="padding-top: 20px;" id="displayContent">

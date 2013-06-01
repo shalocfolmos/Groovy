@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/commonElementGroup/_commonElementGroupMenu.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/sam/IndexController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/sam/IndexController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementGroupController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementGroupController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/sam/TemplateService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/sam/TemplateService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_template.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_template.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
     </list>
     <ignored path="workspace.iws" />
@@ -29,6 +33,21 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy" line="111" class="com.sam.TemplateController" package="com.sam">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -69,11 +88,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_template.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TemplateService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/TemplateService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="0" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonElementService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/CommonElementService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateFrameworkService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="6" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="40" selection-start="3543" selection-end="3543" vertical-scroll-proportion="-16.347826">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="0" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.29268292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_commonElementGroupMenu.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/commonElementGroup/_commonElementGroupMenu.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="89" selection-start="169" selection-end="169" vertical-scroll-proportion="-0.63829786">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_template.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index/_template.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="27" column="47" selection-start="2055" selection-end="2055" vertical-scroll-proportion="-4.4680853">
+              <folding>
+                <marker date="1370062658000" expanded="true" signature="1325:1339" placeholder="{...}" />
+                <marker date="1370062658000" expanded="true" signature="1462:1476" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,22 +167,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/domain/com/sam/CommonElementGroup.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/template/segment/_others.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/commonElement/_oherEditTemplate.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/commonElement/_imageEditTemplate.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/commonElement/_linkEditTemplate.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/commonElement/_otherEditTemplate.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementGroupController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/com/sam/CommonElementService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateFrameworkController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy" />
         <option value="$PROJECT_DIR$/web-app/js/widgetHandle.js" />
-        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/IndexController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/sam/TemplateFramework.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementGroupController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/commonElementGroup/_commonElementGroupMenu.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/index/_template.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/services/com/sam/TemplateService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
       </list>
     </option>
   </component>
@@ -217,6 +293,66 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files" />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.sam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -266,12 +402,26 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,30 +438,16 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Default" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files" />
       </pane>
     </panes>
   </component>
@@ -795,7 +931,11 @@
       <created>1370003877856</created>
       <updated>1370003877856</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="    `">
+      <created>1370006608082</created>
+      <updated>1370006608082</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -832,23 +972,23 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24115044" sideWeight="0.44362745" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17156863" sideWeight="0.46902654" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30420354" sideWeight="0.40625" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30420354" sideWeight="0.40257353" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.75884956" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.48284313" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32632744" sideWeight="0.4466912" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.670354" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17340687" sideWeight="0.21902655" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.48284313" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.23783186" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17156863" sideWeight="0.75884956" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21507353" sideWeight="0.75884956" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.49754903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.49754903" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32632744" sideWeight="0.44424018" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -948,73 +1088,64 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-1.6.0-openjdk-i386/jre/lib/rt.jar!/java/lang/String.class">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/Attribute.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="30" selection-start="6565" selection-end="6565" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.6.0-openjdk-i386/jre/lib/rt.jar!/java/net/PlainSocketImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="701" selection-end="701" vertical-scroll-proportion="0.4090909" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/commonElement/_imageEditTemplate.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="70" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.3670473" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/CommonElementGroup.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.048701297" />
+        <state line="6" column="11" selection-start="81" selection-end="96" vertical-scroll-proportion="-2.0454545">
+          <folding />
+        </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementGroupController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateElement.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="283" selection-end="283" vertical-scroll-proportion="0.28257456" />
+        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.048701297">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/CommonElementService.groovy">
+    <entry file="jar:///usr/lib/jvm/java-1.6.0-openjdk-i386/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateFrameworkController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="53" selection-start="4917" selection-end="4917" vertical-scroll-proportion="0.41130298" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/widgetHandle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="6" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-0.3482587">
+        <state line="206" column="0" selection-start="9578" selection-end="9578" vertical-scroll-proportion="0.86089647">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateElementController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="6" selection-start="3058" selection-end="3058" vertical-scroll-proportion="1.849741">
+        <state line="101" column="6" selection-start="4144" selection-end="4144" vertical-scroll-proportion="0.92935634">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../grails-2.2.0/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.0.5.jar!/groovy/util/Expando.class">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="310" selection-end="310" vertical-scroll-proportion="0.21259843">
+        <state line="84" column="8" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.41130298">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/AttributeController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="6" selection-start="3732" selection-end="3732" vertical-scroll-proportion="0.7645212">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementAttributeController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="87" selection-end="87" vertical-scroll-proportion="0.09950249">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateFramework.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="442" selection-end="454" vertical-scroll-proportion="0.14610389">
+        <state line="30" column="27" selection-start="1105" selection-end="1105" vertical-scroll-proportion="-0.53781515">
           <folding />
         </state>
       </provider>
@@ -1024,7 +1155,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="358" selection-end="358" vertical-scroll-proportion="0.14610389">
+        <state line="73" column="23" selection-start="3101" selection-end="3101" vertical-scroll-proportion="0.6605042">
           <folding />
         </state>
       </provider>
@@ -1032,29 +1163,54 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/IndexController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="9" column="6" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/CommonElementService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="4052" selection-end="4052" vertical-scroll-proportion="0.02446982">
-          <folding>
-            <marker date="1370005823000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1370005823000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1370005823000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1370005823000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1370005823000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/TemplateService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index/_template.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="27" column="47" selection-start="2055" selection-end="2055" vertical-scroll-proportion="-4.4680853">
+          <folding>
+            <marker date="1370062658000" expanded="true" signature="1325:1339" placeholder="{...}" />
+            <marker date="1370062658000" expanded="true" signature="1462:1476" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/commonElementGroup/_commonElementGroupMenu.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="89" selection-start="169" selection-end="169" vertical-scroll-proportion="-0.63829786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="40" selection-start="3543" selection-end="3543" vertical-scroll-proportion="-16.347826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="0" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.29268292">
           <folding />
         </state>
       </provider>
