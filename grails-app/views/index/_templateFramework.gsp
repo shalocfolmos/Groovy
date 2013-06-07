@@ -21,7 +21,7 @@
                 <g:if test="${templateFramework.elementGroupCollection.size() > 0}">
                     <li style="display:inline; padding-left: 15px; ">
                         <a href=""  name="displayElementGroupMenuLink_${templateFramework?.id}" templateFrameworkId="${templateFramework?.id}">
-                            编辑组件内容
+                            编辑公共组件内容
                         </a>
                     </li>
                     <div style="display: none;">

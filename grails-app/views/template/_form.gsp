@@ -9,7 +9,7 @@
 
 <div class="fieldcontain ${hasErrors(bean: templateInstance, field: 'templateFramework', 'error')} required">
 	<label for="templateFramework">
-		<g:message code="template.templateFramework.label" default="Template Framework" />
+        初始模板
 		<span class="required-indicator">*</span>
 	</label>
 	<g:select style="width: 190px" id="templateFramework" name="templateFramework.id" from="${com.sam.TemplateFramework.findAllByTemplateFrameworkStatus(TemplateFrameworkStatus.COMPILED)}" optionKey="id" required="" optionValue="templateName" value="${templateInstance?.templateFramework?.id}" class="many-to-one"/>

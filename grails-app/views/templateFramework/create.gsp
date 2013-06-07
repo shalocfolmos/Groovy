@@ -14,7 +14,7 @@
 			</ul>
 		</div>
 		<div id="create-templateFramework" class="content scaffold-create" role="main">
-			<h1>创建模板框架</h1>
+			<h1>创建初始模板</h1>
 			<g:if test="${flash.message}">
 			    <div class="message" role="status">${flash.message}</div>
 			</g:if>
@@ -26,14 +26,15 @@
                     </g:eachError>
                 </ul>
 			</g:hasErrors>
-			<g:form action="save" method="POST" accept-charset="UTF-8">
-				<fieldset class="form">
-					<g:render template="form"/>
-				</fieldset>
-				<fieldset class="buttons">
-					<g:submitButton name="create" class="save" value="创建模板框架" />
-				</fieldset>
-			</g:form>
+        <g:uploadForm action="save">
+            <fieldset class="form">
+                <g:render template="form"/>
+            </fieldset>
+            <fieldset class="buttons">
+                <g:submitButton name="create" class="save" value="创建模板框架" />
+            </fieldset>
+        </g:uploadForm>
+
 		</div>
 	</body>
 </html>

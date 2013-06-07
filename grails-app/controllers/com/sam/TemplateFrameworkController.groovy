@@ -22,8 +22,14 @@ class TemplateFrameworkController {
     }
 
     def save() {
-        def templateFrameworkInstance = new TemplateFramework(params)
-        templateFrameworkInstance.htmlContent = templateFrameworkInstance.htmlContent.trim()
+        def f = request.getFile('templateFrameworkFile')
+        def fileContent = new String(f.getBytes())
+
+        def templateName = params.templateName
+
+        def templateFrameworkInstance = new TemplateFramework()
+        templateFrameworkInstance.templateName = templateName
+        templateFrameworkInstance.htmlContent = fileContent
         templateFrameworkInstance.templateFrameworkStatus=TemplateFrameworkStatus.UN_COMPILED
         if (!templateFrameworkInstance.save(flush: true)) {
             flash.page = "templateFramework"

@@ -11,6 +11,6 @@
     <label for="htmlContent">
         模板内容(HTML代码)
     </label>
-    <g:textArea  escapeHtml="true" name="htmlContent" value="${templateFrameworkInstance?.htmlContent}" style="width: 400px; height:300px;"/>
+    <input type="file" name="templateFrameworkFile"/>
 </div>
 
