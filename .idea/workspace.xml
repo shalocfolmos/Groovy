@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/build.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/interact.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/monitor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/pathing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/pen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/people.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/phonebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/school.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/vault.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/world.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/1.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/sam/comparator/TemplateElementComparator.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
     </list>
     <ignored path="workspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -961,7 +941,11 @@
       <created>1370065585373</created>
       <updated>1370065585373</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="11">
+      <created>1373016077434</created>
+      <updated>1373016077434</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1002,6 +986,7 @@
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.75884956" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.48284313" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32632744" sideWeight="0.44424018" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.670354" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17340687" sideWeight="0.21902655" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32762313" sideWeight="0.48076922" order="6" side_tool="false" content_ui="tabs" />
@@ -1014,7 +999,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.49754903" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32632744" sideWeight="0.44424018" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1055,7 +1039,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="    `" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1071,6 +1055,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="`" />
     <MESSAGE value="    `" />
+    <MESSAGE value="11" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
