@@ -2,6 +2,7 @@ package com.sam
 
 import com.sam.command.TemplateElementCollectionCommand
 import org.springframework.dao.DataIntegrityViolationException
+import com.sam.comparator.TemplateElementComparator
 
 class TemplateController {
 
@@ -58,7 +59,7 @@ class TemplateController {
             response.sendError(404)
             return
         }
-        [templateElements:templateInstance.templateElements,templateId:id]
+        [templateElements:templateInstance.templateElements.sort(new TemplateElementComparator()),templateId:id]
     }
 
     def saveElement(TemplateElementCollectionCommand command) {
