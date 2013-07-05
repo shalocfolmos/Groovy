@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="">
+    <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="11">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/delete.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_template.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_template.gsp" />
     </list>
     <ignored path="workspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,20 +96,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TemplateController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy">
+      <file leaf-file-name="editElement.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/template/editElement.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="9" selection-start="1835" selection-end="1835" vertical-scroll-proportion="-14.0">
+            <state line="64" column="0" selection-start="3068" selection-end="3068" vertical-scroll-proportion="-12.914893">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editElement.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/template/editElement.gsp">
+      <file leaf-file-name="_templateFramework.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="52" selection-start="108" selection-end="108" vertical-scroll-proportion="-0.9574468">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding>
+                <marker date="1370677191000" expanded="true" signature="3171:3185" placeholder="{...}" />
+                <marker date="1370677191000" expanded="true" signature="3298:3312" placeholder="{...}" />
+                <marker date="1370677191000" expanded="true" signature="3416:3430" placeholder="{...}" />
+                <marker date="1370677191000" expanded="true" signature="3539:3553" placeholder="{...}" />
+                <marker date="1370677191000" expanded="true" signature="3668:3682" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,44 +123,11 @@
       <file leaf-file-name="_template.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index/_template.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="154" selection-start="493" selection-end="493" vertical-scroll-proportion="0.14423077">
+            <state line="22" column="95" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.52884614">
               <folding>
-                <marker date="1370242284000" expanded="true" signature="1325:1339" placeholder="{...}" />
-                <marker date="1370242284000" expanded="true" signature="1462:1476" placeholder="{...}" />
+                <marker date="1373018835000" expanded="true" signature="1958:1972" placeholder="{...}" />
+                <marker date="1373018835000" expanded="true" signature="2095:2109" placeholder="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateElementComparator.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/groovy/com/sam/comparator/TemplateElementComparator.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="67" selection-end="92" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Template.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="53" selection-start="556" selection-end="556" vertical-scroll-proportion="-4.568182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateElement.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateElement.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="23" selection-end="38" vertical-scroll-proportion="-0.6818182">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -170,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/templateFramework/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateFrameworkController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/1.html" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp" />
@@ -186,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/groovy/com/sam/comparator/TemplateElementComparator.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/template/editElement.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/index/_template.gsp" />
       </list>
     </option>
   </component>
@@ -378,29 +353,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comparator" />
+              <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,6 +368,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -945,7 +924,11 @@
       <created>1373016077434</created>
       <updated>1373016077434</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="11">
+      <created>1373016104033</created>
+      <updated>1373016104033</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1099,11 +1082,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/AttributeController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.6086957" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="6" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.6086957" />
@@ -1150,33 +1128,6 @@
         <state line="121" column="8" selection-start="4772" selection-end="4772" vertical-scroll-proportion="0.3328125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateElement.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="23" selection-end="38" vertical-scroll-proportion="-0.6818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="53" selection-start="556" selection-end="556" vertical-scroll-proportion="-4.568182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/com/sam/comparator/TemplateElementComparator.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="67" selection-end="92" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/templateElement/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1186,24 +1137,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="9" selection-start="1835" selection-end="1835" vertical-scroll-proportion="-14.0">
+        <state line="55" column="8" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.33282906">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/sam/comparator/TemplateElementComparator.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="67" selection-end="92" vertical-scroll-proportion="0.10964912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateElement.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="23" selection-end="38" vertical-scroll-proportion="0.046875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/template/editElement.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="52" selection-start="108" selection-end="108" vertical-scroll-proportion="-0.9574468">
+        <state line="64" column="0" selection-start="3068" selection-end="3068" vertical-scroll-proportion="-12.914893">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1370677191000" expanded="true" signature="3171:3185" placeholder="{...}" />
+            <marker date="1370677191000" expanded="true" signature="3298:3312" placeholder="{...}" />
+            <marker date="1370677191000" expanded="true" signature="3416:3430" placeholder="{...}" />
+            <marker date="1370677191000" expanded="true" signature="3539:3553" placeholder="{...}" />
+            <marker date="1370677191000" expanded="true" signature="3668:3682" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index/_template.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="154" selection-start="493" selection-end="493" vertical-scroll-proportion="0.14423077">
+        <state line="22" column="95" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.52884614">
           <folding>
-            <marker date="1370242284000" expanded="true" signature="1325:1339" placeholder="{...}" />
-            <marker date="1370242284000" expanded="true" signature="1462:1476" placeholder="{...}" />
+            <marker date="1373018835000" expanded="true" signature="1958:1972" placeholder="{...}" />
+            <marker date="1373018835000" expanded="true" signature="2095:2109" placeholder="{...}" />
           </folding>
         </state>
       </provider>
