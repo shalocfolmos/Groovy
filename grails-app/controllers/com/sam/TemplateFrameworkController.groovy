@@ -2,6 +2,7 @@ package com.sam
 
 import org.springframework.dao.DataIntegrityViolationException
 import grails.converters.JSON
+import com.sam.comparator.SegmentComparator
 
 class TemplateFrameworkController {
 
@@ -115,7 +116,8 @@ class TemplateFrameworkController {
         templateFrameworkInstance.getSegments().each {it->
             segmentNameList << it
         }
-        render segmentNameList as JSON
+        sortedSegmentNameList = segmentNameList.sort new SegmentComparator()
+        render sortedSegmentNameList as JSON
 
     }
 
