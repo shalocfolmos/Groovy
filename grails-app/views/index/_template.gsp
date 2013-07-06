@@ -1,7 +1,7 @@
 
 <g:each in="${templateCollection}" var="template" status="templateIndex">
     <div style="padding-left: 30px; padding-top: 15px;">
-        <div style="width: 600px;float: left;">${template?.templateTitle}</div>
+        <div style="width: 750px;float: left;">${template?.templateTitle}</div>
         <ul style="list-style: none;">
             <g:if test="${template.templateStatus != com.sam.TemplateStatus.CONFIRMED}">
                 <li style="display:inline; padding-left: 15px;">

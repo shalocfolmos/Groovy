@@ -1,27 +1,34 @@
 
 <g:each in="${templateFrameworkCollection}" var="templateFramework" status="templateFrameworkIndex">
     <div style="padding-left: 30px; padding-top: 15px;">
-        <div style="width: 500px;float: left;">${templateFramework?.templateName}</div>
+        <div style="width: 750px;float: left;">${templateFramework?.templateName}</div>
         <ul style="list-style: none;">
             <g:if test="${templateFramework.templateFrameworkStatus != com.sam.TemplateFrameworkStatus.COMPILED}">
                 <li style="display:inline; padding-left: 15px;">
-                    <g:link controller="templateFramework" action="compile" id="${templateFramework?.id}">确认模板框架</g:link>
-                    <g:link controller="templateFramework" action="edit" id="${templateFramework?.id}">编辑模板框架</g:link>
+                    <g:link controller="templateFramework" action="compile" id="${templateFramework?.id}">
+                        <r:img uri="/images/icon/check.png" width="20" height="20" alt="确认初始模板" title="确认初始模板"/>
+                    </g:link>
                 </li>
             </g:if>
             <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED}">
-                <a href="" name="createElementGroup_${templateFramework?.id}">
-                    创建公共组件
-                </a>
+                <li style="display:inline; padding-left: 15px;">
+                    <a href="" name="createElementGroup_${templateFramework?.id}">
+                        <r:img uri="/images/icon/plus.png" width="20" height="20" alt="创建公共组件" title="创建公共组件"/>
+
+                    </a>
+                </li>
             </g:if>
             <li style="display:inline; padding-left: 15px;">
-                <g:link controller="templateFramework" action="delete" id="${templateFramework?.id}">删除模板框架</g:link>
+                <g:link controller="templateFramework" action="delete" id="${templateFramework?.id}">
+                    <r:img uri="/images/icon/delete.png" width="20" height="20" alt="删除模板框架" title="删除模板框架"/>
+                </g:link>
             </li>
             <g:if test="${templateFramework?.templateFrameworkStatus == com.sam.TemplateFrameworkStatus.COMPILED && templateFramework?.elementGroupCollection?.size() > 0}">
                 <g:if test="${templateFramework.elementGroupCollection.size() > 0}">
                     <li style="display:inline; padding-left: 15px; ">
                         <a href=""  name="displayElementGroupMenuLink_${templateFramework?.id}" templateFrameworkId="${templateFramework?.id}">
-                            编辑公共组件内容
+                            <r:img uri="/images/icon/config.png" width="20" height="20" alt="编辑公共组件内容" title="编辑公共组件内容"/>
+
                         </a>
                     </li>
                     <div style="display: none;">
