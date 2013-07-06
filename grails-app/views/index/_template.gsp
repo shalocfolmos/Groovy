@@ -6,12 +6,12 @@
             <g:if test="${template.templateStatus != com.sam.TemplateStatus.CONFIRMED}">
                 <li style="display:inline; padding-left: 15px;">
                     <g:link controller="template" action="editElement" id="${template?.id}">
-                        <r:img uri="/images/icon/pen.png" width="20" height="20" alt="编辑模板内容" title="编辑模板内容"/>
+                        <r:img uri="/images/icon/edit.png" width="20" height="20" alt="编辑模板内容" title="编辑模板内容"/>
                     </g:link>
                 </li>
                 <li style="display:inline; padding-left: 15px;">
                     <g:link controller="template" action="confirmTemplate" id="${template?.id}">
-                        <r:img uri="/images/icon/world.png" width="20" height="20" alt="模板编辑完成" title="模板编辑完成"/>
+                        <r:img uri="/images/icon/check.png" width="20" height="20" alt="模板编辑完成" title="模板编辑完成"/>
                     </g:link>
                 </li>
                 <li style="display:inline; padding-left: 15px;">
@@ -21,7 +21,11 @@
                 </li>
             </g:if>
             <g:if test="${template.templateStatus == com.sam.TemplateStatus.CONFIRMED}">
-                <li style="display:inline; padding-left: 15px;"><g:link controller="template" action="exportTemplateContent" id="${template?.id}">导出模板内容</g:link> </li>
+                <li style="display:inline; padding-left: 15px;">
+                    <g:link controller="template" action="exportTemplateContent" id="${template?.id}">
+                        <r:img uri="/images/icon/upcoming_work.png" width="20" height="20" alt="导出模板内容" title="导出模板内容"/>
+                    </g:link>
+                </li>
             </g:if>
             <li style="display:inline; padding-left: 15px;">
                 <g:link controller="template" action="delete" id="${template?.id}">

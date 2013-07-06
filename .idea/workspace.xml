@@ -1,9 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="11">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/delete.png" />
+    <list default="true" id="395c77e2-6eb8-4d93-8138-970fdde4ab54" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/address.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/administrative_docs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/advertising.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/archives.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/attibutes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/bank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/basket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/bestseller.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/billing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/bookmark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/brainstorming.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/business_contact.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/busy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/category.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/collaboration.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/communication.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/config.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/consulting.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/contact.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/cost.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/credit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/credit_card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/current_work.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/customers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/cv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/date.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/delicious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/document_library.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/donate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/drawings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/featured.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/feed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/feed2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/finished_work.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/flag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/free_for_job.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/freelance.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/full_time.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/future_projects.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/graphic_design.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/hire_me.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/illustration.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/invoice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/issue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/limited_edition.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/logout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/milestone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/my_account.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/networking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/order.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/order_159.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/payment_card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/photography.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/premium.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/process.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/product.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/product_169.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/product_design.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/project.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/publish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/shipping.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/showreel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/sign_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/sign_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/sign_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/sitemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/special_offer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/statistics.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/suppliers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/tag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/ticket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/upcoming_work.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/icon/zoom.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/build.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/interact.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/monitor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/pathing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/people.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/phonebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/school.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/icon/vault.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/icon/home.png" afterPath="$PROJECT_DIR$/web-app/images/icon/home.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/icon/pen.png" afterPath="$PROJECT_DIR$/web-app/images/icon/pen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/icon/pencil.png" afterPath="$PROJECT_DIR$/web-app/images/icon/pencil.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/icon/plus.png" afterPath="$PROJECT_DIR$/web-app/images/icon/plus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/images/icon/world.png" afterPath="$PROJECT_DIR$/web-app/images/icon/world.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_template.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_template.gsp" />
     </list>
     <ignored path="workspace.iws" />
@@ -99,7 +208,7 @@
       <file leaf-file-name="editElement.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/template/editElement.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="3068" selection-end="3068" vertical-scroll-proportion="-12.914893">
+            <state line="64" column="0" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +217,7 @@
       <file leaf-file-name="_templateFramework.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1370677191000" expanded="true" signature="3171:3185" placeholder="{...}" />
                 <marker date="1370677191000" expanded="true" signature="3298:3312" placeholder="{...}" />
@@ -123,11 +232,20 @@
       <file leaf-file-name="_template.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index/_template.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="95" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.52884614">
+            <state line="26" column="20" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.6122449">
               <folding>
-                <marker date="1373018835000" expanded="true" signature="1958:1972" placeholder="{...}" />
-                <marker date="1373018835000" expanded="true" signature="2095:2109" placeholder="{...}" />
+                <marker date="1373086813000" expanded="true" signature="2132:2146" placeholder="{...}" />
+                <marker date="1373086813000" expanded="true" signature="2269:2283" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,7 +269,6 @@
         <option value="$PROJECT_DIR$/grails-app/views/templateFramework/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/template/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/IndexController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/sam/CommonElementGroup.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/sam/TemplateFramework.groovy" />
         <option value="$PROJECT_DIR$/grails-app/1.sql" />
@@ -160,6 +277,7 @@
         <option value="$PROJECT_DIR$/src/groovy/com/sam/comparator/TemplateElementComparator.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/template/editElement.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_template.gsp" />
       </list>
     </option>
@@ -271,6 +389,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -375,38 +503,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -436,15 +532,15 @@
     <property name="options.lastSelected" value="preferences.editor" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="GoToClass.includeJavaFiles" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -587,14 +683,13 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
+      <setting name="path" value="" />
       <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="true" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="true" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="D:\用户目录\Documents\百度云\workspace" />
+      <setting name="debug" value="false" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -613,13 +708,14 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
-      <setting name="path" value="" />
       <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="D:\用户目录\Documents\百度云\workspace" />
-      <setting name="debug" value="false" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="true" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -636,24 +732,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -690,6 +768,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -707,17 +803,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -744,6 +829,17 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -928,7 +1024,11 @@
       <created>1373016104033</created>
       <updated>1373016104033</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="11">
+      <created>1373018920844</created>
+      <updated>1373018920844</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -961,27 +1061,27 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17156863" sideWeight="0.18141593" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23982869" sideWeight="0.5347222" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23982869" sideWeight="0.53258544" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23982869" sideWeight="0.46153846" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23982869" sideWeight="0.4636752" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17156863" sideWeight="0.46902654" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30406854" sideWeight="0.3616453" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30406854" sideWeight="0.36004272" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.75884956" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.48284313" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32632744" sideWeight="0.44424018" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.670354" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17340687" sideWeight="0.21902655" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32762313" sideWeight="0.48076922" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.23783186" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32745728" sideWeight="0.7601713" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.7601713" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.49754903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.49754903" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32632744" sideWeight="0.44424018" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1082,11 +1182,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/CommonElementController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.6086957" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1103,19 +1198,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/CommonElementGroup.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="49" selection-start="291" selection-end="291" vertical-scroll-proportion="-5.1136365" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateFramework.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateFramework.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="-3.409091" />
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/com/sam/TemplateFrameworkService.groovy">
@@ -1130,71 +1225,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/templateElement/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/sam/TemplateController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="8" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.33282906">
-          <folding />
-        </state>
+        <state line="55" column="8" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.33282906" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovy/com/sam/comparator/TemplateElementComparator.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="67" selection-end="92" vertical-scroll-proportion="0.10964912">
-          <folding />
-        </state>
+        <state line="5" column="8" selection-start="67" selection-end="92" vertical-scroll-proportion="0.10964912" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/Template.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/sam/TemplateElement.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="23" selection-end="38" vertical-scroll-proportion="0.046875" />
+      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="23" selection-end="38" vertical-scroll-proportion="0.046875">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/template/editElement.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="3068" selection-end="3068" vertical-scroll-proportion="-12.914893">
+        <state line="64" column="0" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index/_templateFramework.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1370677191000" expanded="true" signature="3171:3185" placeholder="{...}" />
-            <marker date="1370677191000" expanded="true" signature="3298:3312" placeholder="{...}" />
-            <marker date="1370677191000" expanded="true" signature="3416:3430" placeholder="{...}" />
-            <marker date="1370677191000" expanded="true" signature="3539:3553" placeholder="{...}" />
-            <marker date="1370677191000" expanded="true" signature="3668:3682" placeholder="{...}" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index/_template.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="95" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.52884614">
+        <state line="26" column="20" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.6122449">
           <folding>
-            <marker date="1373018835000" expanded="true" signature="1958:1972" placeholder="{...}" />
-            <marker date="1373018835000" expanded="true" signature="2095:2109" placeholder="{...}" />
+            <marker date="1373086813000" expanded="true" signature="2132:2146" placeholder="{...}" />
+            <marker date="1373086813000" expanded="true" signature="2269:2283" placeholder="{...}" />
           </folding>
         </state>
       </provider>
