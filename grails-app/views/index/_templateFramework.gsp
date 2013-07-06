@@ -86,7 +86,7 @@
                     var content = "<tr name='segmentLine'>" +
                             "<td>" +
                             element.name+"</td>"+
-                            "<td><input type='radio' name='segmentRadio_"+ element.segmentId +"'/></td></tr>";
+                            "<td><input type='checkbox' name='segmentRadio_"+ element.segmentId +"'/></td></tr>";
                     segmentListTable.append(content);
                 }
         );

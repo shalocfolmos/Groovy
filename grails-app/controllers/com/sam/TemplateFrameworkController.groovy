@@ -116,7 +116,7 @@ class TemplateFrameworkController {
         templateFrameworkInstance.getSegments().each {it->
             segmentNameList << it
         }
-        sortedSegmentNameList = segmentNameList.sort new SegmentComparator()
+        def sortedSegmentNameList = segmentNameList.sort new SegmentComparator()
         render sortedSegmentNameList as JSON
 
     }
