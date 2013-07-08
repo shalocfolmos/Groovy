@@ -27,16 +27,20 @@
                 <g:if test="${templateFramework.elementGroupCollection.size() > 0}">
                     <li style="display:inline; padding-left: 15px; ">
                         <a href=""  name="displayElementGroupMenuLink_${templateFramework?.id}" templateFrameworkId="${templateFramework?.id}">
-                            <r:img uri="/images/icon/config.png" width="20" height="20" alt="编辑公共组件内容" title="编辑公共组件内容"/>
+                            <r:img name="displayElementGroupMenuLink_${templateFramework?.id}" uri="/images/icon/config.png" width="20" height="20" alt="编辑公共组件内容" title="编辑公共组件内容"/>
 
                         </a>
                     </li>
                     <div style="display: none;">
-                        <ul id="commonElementGroupMenu_${templateFramework.id}">
+                        <ul id="commonElementGroupMenu_${templateFramework.id}" >
                             <g:each in="${templateFramework.elementGroupCollection}" var="i">
                                 <li>
-                                    <a style="float: left;padding-right: 20px;" href="" name="groupMenuItem_${templateFramework.id}" menuItemId="${i.id}">${i.name}</a>
-                                    <a href="" name="deleteMenuItem_${templateFramework.id}" menuItemId="${i.id}">删除</a>
+                                    <div style="float:left;width:330px;">
+                                        <a  href="" name="groupMenuItem_${templateFramework.id}" onclick="showElementGroupPanel(${i.id})" >${i.name}</a>
+                                    </div>
+                                    <div style="float:left;width:50px;">
+                                        <a style="width: 50px;" href="" name="deleteMenuItem_${templateFramework.id}" onclick="deleteElementGroup(${i.id})">删除</a>
+                                    </div>
                                     <div style="clear: both;"></div>
                                 </li>
                             </g:each>

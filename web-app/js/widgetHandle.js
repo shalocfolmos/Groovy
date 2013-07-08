@@ -3,7 +3,6 @@
 function initEditCommonElementGroupLink() {
 
     $(document).click(function(event) {
-
         if(!event.target.attributes["name"]) {
             $('#menuContainer').hide();
             $('#menuContainer').menu("destroy");
@@ -15,20 +14,43 @@ function initEditCommonElementGroupLink() {
             $('#menuContainer').menu("destroy");
             $('#menuContainer').html();
         }
-        else if(event.target.name.startsWith("groupMenuItem")){
-            event.preventDefault();
-            $('#menuContainer').hide();
-            showElementGroupPanel(event.target.attributes["menuitemid"].nodeValue);
-        }
-        else if(event.target.name.startsWith("deleteMenuItem_")){
-            event.preventDefault();
-            $('#menuContainer').hide();
-            deleteElementGroup(event.target.attributes["menuitemid"].nodeValue);
-        }
+//        else if(event.target.name.startsWith("groupMenuItem")){
+//            event.preventDefault();
+//            $('#menuContainer').hide();
+//            showElementGroupPanel(event.target.attributes["menuitemid"].nodeValue);
+//        }
+//        else if(event.target.name.startsWith("deleteMenuItem_")){
+//            event.preventDefault();
+//            $('#menuContainer').hide();
+//            deleteElementGroup(event.target.attributes["menuitemid"].nodeValue);
+//        }
 
     });
 
+    $('a[name*="deleteMenuItem_"]').each(
+        function(i,obj) {
+            $(obj).click(
+                function(event) {
+                    event.preventDefault();
+                    $('#menuContainer').hide();
+                    deleteElementGroup(event.target.attributes["menuitemid"].nodeValue);
+                }
+            );
+        }
+    );
 
+
+    $('a[name*="groupMenuItem_"]').each(
+        function(i,obj) {
+            $(obj).click(
+                function(event) {
+                    event.preventDefault();
+                    $('#menuContainer').hide();
+                    showElementGroupPanel(event.target.attributes["menuitemid"].nodeValue);
+                }
+            );
+        }
+    );
 
     $('a[name*="displayElementGroupMenuLink_"]').each(
         function(i,obj) {
@@ -44,7 +66,8 @@ function initEditCommonElementGroupLink() {
                     $('#menuContainer').menu();
                     $('#menuContainer').css("z-index", "99");
                     $('#menuContainer').css("display", "inline");
-                    $('#menuContainer').offset({left:objOffset.left + 40, top:objOffset.top + 20});
+                    $('#menuContainer').css("width", "400px");
+                    $('#menuContainer').offset({left:objOffset.left - 140, top:objOffset.top + 30});
                     $('#menuContainer').show(2000);
 
                 }

@@ -2,6 +2,7 @@ package com.sam
 
 import org.springframework.dao.DataIntegrityViolationException
 import grails.converters.JSON
+import com.sam.comparator.CommonElementComparator
 
 class CommonElementGroupController {
 
@@ -81,7 +82,8 @@ class CommonElementGroupController {
             }
             else {
                 String content = ""
-                Set<CommonElement>commonElementSet = elementGroup.commonElements
+                Set<CommonElement>commonElementSet = elementGroup.commonElements.sort(new CommonElementComparator())
+
                 for(commonElement in commonElementSet) {
                     if(commonElement.segment.segmentType==SegmentType.IMAGE) {
                         content += g.render(template:"/commonElement/imageEditTemplate",model:[element:commonElement]).toString()
@@ -97,7 +99,7 @@ class CommonElementGroupController {
                 render content
             }
         } catch (Exception e) {
-            render "创建失败,请重新尝试"
+            render "发生异常,请重新尝试"
         }
     }
 
