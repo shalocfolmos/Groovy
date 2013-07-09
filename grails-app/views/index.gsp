@@ -94,7 +94,7 @@
                 <li style="display: inline; padding-left: 10px;">
                     <g:remoteLink action="ajaxContent" controller="index" params="[module:'templateFramework']" update="displayContent">模板框架</g:remoteLink>
                 </li>
-                <li style="display: inline; padding-left: 10px;"><g:link action="create" controller="templateFramework">创建模板框架</g:link></li>
+                <li style="display: inline; padding-left: 10px;"><g:link action="create" controller="templateFramework">创建初始模板</g:link></li>
                 <li style="display: inline; padding-left: 10px;"><g:link action="create" controller="template">创建模板</g:link></li>
             </ul>
         </div>

@@ -66,7 +66,7 @@ class CommonElementGroupController {
                     commonElementAttribute.save()
                 }
             }
-            render "编辑成功,请重新尝试"
+            render "编辑成功!"
         }
         catch (Exception e) {
             render "服务器发生异常,请重新尝试"
